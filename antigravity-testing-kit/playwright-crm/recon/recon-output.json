@@ -1,0 +1,5907 @@
+{
+  "login_page": [
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "email",
+      "name": "email",
+      "type": "email",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "password",
+      "name": "password",
+      "type": "password",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "remember",
+      "name": "remember",
+      "type": "checkbox"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Login",
+      "classes": "btn btn-primary btn-block"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/",
+      "classes": "logo img-responsive"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/forgot_password",
+      "text": "Forgot Password?"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Login",
+      "classes": "btn btn-primary btn-block"
+    },
+    {
+      "tag": "label",
+      "text": "Email Address",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Password",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Remember me"
+    }
+  ],
+  "customer_list_page": [
+    {
+      "tag": "input",
+      "id": "search_input",
+      "type": "search",
+      "placeholder": "Search...",
+      "classes": "tw-px-4 tw-ml-1 tw-mt-2.5 focus:!tw-ring-0 tw-w-full !tw-placeholder-neutral-400"
+    },
+    {
+      "tag": "input",
+      "id": "mass_delete",
+      "name": "mass_delete",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "placeholder": "Search...",
+      "classes": "form-control input-sm"
+    },
+    {
+      "tag": "input",
+      "id": "mass_select_all",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9114",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9152",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9153",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9154",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9155",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9148",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9023",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9034",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "8215",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "8225",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "8226",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9010",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9011",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9012",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9013",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9014",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9030",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9033",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9024",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9025",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9027",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9028",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9029",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9015",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "9016",
+      "name": "onoffswitch",
+      "type": "checkbox",
+      "classes": "onoffswitch-checkbox"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "match_type_and",
+      "name": "match_clients",
+      "type": "radio"
+    },
+    {
+      "tag": "input",
+      "id": "match_type_or",
+      "name": "match_clients",
+      "type": "radio"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "filter_name",
+      "type": "email",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "clientsShareFilter",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "clientsDefaultFilter",
+      "type": "checkbox"
+    },
+    {
+      "tag": "select",
+      "id": "move_to_groups_customers_bulk[]",
+      "name": "move_to_groups_customers_bulk[]",
+      "type": "select-multiple",
+      "text": "123123aA1aaaaaaaaaaaaaaaaaaabbabbabbbabbbbafkafkafkafkafkafk",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "name": "clients_length",
+      "type": "select-one",
+      "text": "10\n25\n50\n100\nAll",
+      "classes": "form-control input-sm"
+    },
+    {
+      "tag": "select",
+      "id": "dt-page-jump-clients",
+      "type": "select-one",
+      "text": "1\n2\n3",
+      "classes": "dt-page-jump-select form-control"
+    },
+    {
+      "tag": "select",
+      "id": "clientsRules",
+      "name": "tax",
+      "type": "select-one",
+      "text": "PhoneActiveInvoicesEstimatesProposalsProjectsContracts Types",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "classes": "tw-outline-none tw-border-0 tw-text-neutral-600"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "navbar-toggle visible-md visible-sm visible-xs mobile-menu-toggle collapsed tw-m"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "filter by city",
+      "classes": "active btn btn-default dropdown-toggle sm:tw-max-w-xs tw-truncate"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Export",
+      "classes": "btn btn-default buttons-collection btn-sm btn-default-dt-options"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Bulk Actions",
+      "classes": "btn btn-default btn-sm btn-default-dt-options"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "btn btn-default btn-sm btn-default-dt-options btn-dt-reload"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Add Rule",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "btn btn-danger btn-sm"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Apply and Save",
+      "classes": "btn btn-primary btn-sm"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "!tw-px-0 tw-group !tw-text-white"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/invoice",
+      "text": "Invoice",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/estimate",
+      "text": "Estimate",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/proposal",
+      "text": "Proposal",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes/credit_note",
+      "text": "Credit Note",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client",
+      "text": "Customer",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions/create",
+      "text": "Subscription",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects/project",
+      "text": "Project",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Task",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses/expense",
+      "text": "Expense",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract",
+      "text": "Contract",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base/article",
+      "text": "Article",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets/add",
+      "text": "Ticket",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar?new_event=true&date=09-05-2026",
+      "text": "Event",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Share documents, ideas..",
+      "classes": "open_newsfeed mobile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "open_newsfeed desktop"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/todo",
+      "text": "2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle profile tw-block rtl:!tw-px-0.5 !tw-py-1"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Language"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language",
+      "text": "System Default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/english",
+      "text": "English"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/chinese",
+      "text": "Chinese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/vietnamese",
+      "text": "Vietnamese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/indonesia",
+      "text": "Indonesia"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/bulgarian",
+      "text": "Bulgarian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese_br",
+      "text": "Portuguese_br"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/swedish",
+      "text": "Swedish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/dutch",
+      "text": "Dutch"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/persian",
+      "text": "Persian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/turkish",
+      "text": "Turkish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/catalan",
+      "text": "Catalan"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/spanish",
+      "text": "Spanish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese",
+      "text": "Portuguese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/french",
+      "text": "French"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/czech",
+      "text": "Czech"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/japanese",
+      "text": "Japanese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/italian",
+      "text": "Italian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/slovak",
+      "text": "Slovak"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/russian",
+      "text": "Russian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/polish",
+      "text": "Polish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/greek",
+      "text": "Greek"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/finnish",
+      "text": "Finnish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/norwegian",
+      "text": "Norwegian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/german",
+      "text": "German"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/ukrainian",
+      "text": "Ukrainian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/romanian",
+      "text": "Romanian"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "id": "top-timers",
+      "href": "#",
+      "classes": "top-timers !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle notifications-icon !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Mark all as read",
+      "classes": "tw-text-right tw-inline"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/390",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/391",
+      "text": "Contract with subject 21 has been signed by the customer\n   ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/list_estimates/3",
+      "text": "An estimate with number EST-002024 has been viewed\n         ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/list_proposals/146",
+      "text": "Proposal Declined - PRO-000146\n                    \n        ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/317?group=attachments",
+      "text": "admin Sample Data - New File(s) Uploaded in ProfileCustomer\n",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/2",
+      "text": "An invoice with number INV-DRAFT has been viewed\n           ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/3",
+      "text": "An invoice with number INV-000001 has been viewed\n          ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "classes": "logo img-responsive !tw-mt-0"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "text": "Dashboard"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients",
+      "text": "Customers"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects",
+      "text": "Projects"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tasks",
+      "text": "Tasks"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts",
+      "text": "Contracts"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals",
+      "text": "Proposals"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates",
+      "text": "Estimates"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices",
+      "text": "Invoices"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/payments",
+      "text": "Payments"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes",
+      "text": "Credit Notes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoice_items",
+      "text": "Items"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions",
+      "text": "Subscriptions"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets",
+      "text": "Support"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimate_request",
+      "text": "Estimate Request"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base",
+      "text": "Knowledge Base"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Utilities"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/media",
+      "text": "Media"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/bulk_pdf_exporter",
+      "text": "Bulk PDF Export"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar",
+      "text": "Calendar"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Reports"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/sales",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses_vs_income",
+      "text": "Expenses vs Income"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets?view=all",
+      "text": "Timesheets overview"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/knowledge_base_articles",
+      "text": "KB Articles"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client",
+      "text": "New Customer",
+      "classes": "btn btn-primary mright5 test pull-left display-block"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/import",
+      "text": "Import Customers",
+      "classes": "btn btn-primary pull-left display-block mright5 hidden-xs"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/all_contacts",
+      "text": "Contacts",
+      "classes": "btn btn-default pull-left display-block mright5"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "New Filter"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Clear Filter",
+      "classes": "tw-pl-2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Edit",
+      "classes": "tw-pl-2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by phone"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by active state"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by invoice"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by estimates"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by proposals"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by projects"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by contracts type"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "filter by city"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Bulk Actions",
+      "classes": "bulk-actions-btn table-btn hide"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Confirm",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114",
+      "text": "baba"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9114",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:093333433",
+      "text": "093333433"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9152",
+      "text": "CompanyABC"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9152",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9152?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9152",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:0123456789",
+      "text": "0123456789"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9153",
+      "text": "CompanyABC"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9153",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9153?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9153",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:0123456789",
+      "text": "0123456789"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9154",
+      "text": "CompanyABC"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9154",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9154?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9154",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:0123456789",
+      "text": "0123456789"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9155",
+      "text": "CompanyABCD"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9155",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9155?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9155",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:0123456789",
+      "text": "0123456789"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9148",
+      "text": "Công ty CP YHL"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9148",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9148?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9148",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9023",
+      "text": "Công ty GM"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9023",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9023?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9023",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9034",
+      "text": "Công ty Hải Lê"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9034",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9034?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9034",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8215",
+      "text": "Công ty Lock&Lock"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8215",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8215?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/8215",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8225",
+      "text": "Công ty Lock&Lock"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8225",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8225?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/8225",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8226",
+      "text": "Công ty Lock&Lock"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8226",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/8226?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/8226",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9010",
+      "text": "Công ty Quin"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9010",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9010?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9010",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9011",
+      "text": "Công ty Quin"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9011",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9011?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9011",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9012",
+      "text": "Công ty Quin"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9012",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9012?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9012",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9013",
+      "text": "Công ty Quin"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9013",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9013?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9013",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9014",
+      "text": "Công ty Quin"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9014",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9014?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9014",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9030",
+      "text": "Công ty RM"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9030",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9030?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9030",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9033",
+      "text": "Công ty RM"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9033",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9033?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9033",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9024",
+      "text": "Công ty VT YHL"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9024",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9024?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9024",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9025",
+      "text": "Công ty VT YHL"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9025",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9025?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9025",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9027",
+      "text": "Công ty VT YHL"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9027",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9027?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9027",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9028",
+      "text": "Công ty VT YHL 19/04"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9028",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9028?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9028",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9029",
+      "text": "Công ty VT YHL 19/04"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9029",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9029?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9029",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9015",
+      "text": "Công ty Ween"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9015",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9015?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9015",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9016",
+      "text": "Công ty Ween"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9016",
+      "text": "View"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9016?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9016",
+      "text": "Delete",
+      "classes": "text-danger _delete"
+    },
+    {
+      "tag": "a",
+      "href": "tel:028yyzzxxx",
+      "text": "028yyzzxxx"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Previous"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "1"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "3"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Next"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "a",
+      "id": "cityOperators",
+      "href": "#",
+      "text": "equal",
+      "classes": "dropdown-toggle"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "equal"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "not equal"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "begins with"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "not begins with"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "contains"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "not contains"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "ends with"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "not ends with"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "ml-auto"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-prev"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-next"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "th",
+      "ariaLabel": " - ",
+      "classes": "sorting_disabled not-export"
+    },
+    {
+      "tag": "th",
+      "id": "th-number",
+      "ariaLabel": "# activate to sort column ascending",
+      "text": "#",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "th",
+      "id": "th-company",
+      "ariaLabel": "Company activate to sort column descending",
+      "text": "Company",
+      "classes": "toggleable sorting sorting_asc"
+    },
+    {
+      "tag": "th",
+      "id": "th-primary-contact",
+      "ariaLabel": "Primary Contact activate to sort column ascending",
+      "text": "Primary Contact",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "th",
+      "id": "th-primary-contact-email",
+      "ariaLabel": "Primary Email activate to sort column ascending",
+      "text": "Primary Email",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "th",
+      "id": "th-phone",
+      "ariaLabel": "Phone activate to sort column ascending",
+      "text": "Phone",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "th",
+      "id": "th-active",
+      "ariaLabel": "Active activate to sort column ascending",
+      "text": "Active",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "th",
+      "id": "th-groups",
+      "ariaLabel": "Groups activate to sort column ascending",
+      "text": "Groups",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "th",
+      "id": "th-date-created",
+      "ariaLabel": "Date Created activate to sort column ascending",
+      "text": "Date Created",
+      "classes": "toggleable sorting"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client",
+      "text": "New Customer",
+      "classes": "btn btn-primary mright5 test pull-left display-block"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/import",
+      "text": "Import Customers",
+      "classes": "btn btn-primary pull-left display-block mright5 hidden-xs"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/all_contacts",
+      "text": "Contacts",
+      "classes": "btn btn-default pull-left display-block mright5"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "filter by city",
+      "classes": "active btn btn-default dropdown-toggle sm:tw-max-w-xs tw-truncate"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Confirm",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Export",
+      "classes": "btn btn-default buttons-collection btn-sm btn-default-dt-options"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Bulk Actions",
+      "classes": "btn btn-default btn-sm btn-default-dt-options"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "btn btn-default btn-sm btn-default-dt-options btn-dt-reload"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Add Rule",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "btn btn-danger btn-sm"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Apply and Save",
+      "classes": "btn btn-primary btn-sm"
+    },
+    {
+      "tag": "label",
+      "text": "Mass Delete"
+    },
+    {
+      "tag": "label",
+      "text": "Groups",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "10\n25\n50\n100\nAll"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "classes": "onoffswitch-label"
+    },
+    {
+      "tag": "label",
+      "text": "and",
+      "classes": "tw-lowercase"
+    },
+    {
+      "tag": "label",
+      "text": "or",
+      "classes": "tw-lowercase"
+    },
+    {
+      "tag": "label",
+      "text": "* Filter name"
+    },
+    {
+      "tag": "label",
+      "text": "Share with other team members?"
+    },
+    {
+      "tag": "label",
+      "text": "Mark as default"
+    }
+  ],
+  "customer_form_details_tab": [
+    {
+      "tag": "input",
+      "id": "search_input",
+      "type": "search",
+      "placeholder": "Search...",
+      "classes": "tw-px-4 tw-ml-1 tw-mt-2.5 focus:!tw-ring-0 tw-w-full !tw-placeholder-neutral-400"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "show_primary_contact",
+      "name": "show_primary_contact",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "company",
+      "name": "company",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "vat",
+      "name": "vat",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "phonenumber",
+      "name": "phonenumber",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "website",
+      "name": "website",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "city",
+      "name": "city",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "state",
+      "name": "state",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "zip",
+      "name": "zip",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "billing_city",
+      "name": "billing_city",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "billing_state",
+      "name": "billing_state",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "billing_zip",
+      "name": "billing_zip",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "shipping_city",
+      "name": "shipping_city",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "shipping_state",
+      "name": "shipping_state",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "shipping_zip",
+      "name": "shipping_zip",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "name",
+      "name": "name",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "id",
+      "type": "hidden"
+    },
+    {
+      "tag": "textarea",
+      "id": "address",
+      "name": "address",
+      "type": "textarea",
+      "classes": "form-control"
+    },
+    {
+      "tag": "textarea",
+      "id": "billing_street",
+      "name": "billing_street",
+      "type": "textarea",
+      "classes": "form-control"
+    },
+    {
+      "tag": "textarea",
+      "id": "shipping_street",
+      "name": "shipping_street",
+      "type": "textarea",
+      "classes": "form-control"
+    },
+    {
+      "tag": "select",
+      "id": "groups_in[]",
+      "name": "groups_in[]",
+      "type": "select-multiple",
+      "text": "123\n123\na\nA1\naaa\naaa\naaaa\naaaa\naaaa\nabb\nabb\nabbb\nabbbb\nafk\na",
+      "classes": "selectpicker _select_input_group"
+    },
+    {
+      "tag": "select",
+      "id": "default_currency",
+      "name": "default_currency",
+      "type": "select-one",
+      "text": "USD\nEUR",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "default_language",
+      "name": "default_language",
+      "type": "select-one",
+      "text": "System Default\nEnglish\nChinese\nVietnamese\nIndonesia\nBulgaria",
+      "classes": "form-control selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "country",
+      "name": "country",
+      "type": "select-one",
+      "text": "Afghanistan\nAland Islands\nAlbania\nAlgeria\nAmerican Samoa\nAnd",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "billing_country",
+      "name": "billing_country",
+      "type": "select-one",
+      "text": "AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraA",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "shipping_country",
+      "name": "shipping_country",
+      "type": "select-one",
+      "text": "AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraA",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "classes": "tw-outline-none tw-border-0 tw-text-neutral-600"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "navbar-toggle visible-md visible-sm visible-xs mobile-menu-toggle collapsed tw-m"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Select All",
+      "classes": "actions-btn bs-select-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Deselect All",
+      "classes": "actions-btn bs-deselect-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "System Default",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "System Default",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save and create contact",
+      "classes": "btn btn-default save-and-add-contact customer-form-submiter"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary only-save customer-form-submiter"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "!tw-px-0 tw-group !tw-text-white"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/invoice",
+      "text": "Invoice",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/estimate",
+      "text": "Estimate",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/proposal",
+      "text": "Proposal",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes/credit_note",
+      "text": "Credit Note",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client",
+      "text": "Customer",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions/create",
+      "text": "Subscription",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects/project",
+      "text": "Project",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Task",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses/expense",
+      "text": "Expense",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract",
+      "text": "Contract",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base/article",
+      "text": "Article",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets/add",
+      "text": "Ticket",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar?new_event=true&date=09-05-2026",
+      "text": "Event",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Share documents, ideas..",
+      "classes": "open_newsfeed mobile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "open_newsfeed desktop"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/todo",
+      "text": "2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle profile tw-block rtl:!tw-px-0.5 !tw-py-1"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Language"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language",
+      "text": "System Default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/english",
+      "text": "English"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/chinese",
+      "text": "Chinese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/vietnamese",
+      "text": "Vietnamese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/indonesia",
+      "text": "Indonesia"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/bulgarian",
+      "text": "Bulgarian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese_br",
+      "text": "Portuguese_br"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/swedish",
+      "text": "Swedish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/dutch",
+      "text": "Dutch"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/persian",
+      "text": "Persian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/turkish",
+      "text": "Turkish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/catalan",
+      "text": "Catalan"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/spanish",
+      "text": "Spanish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese",
+      "text": "Portuguese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/french",
+      "text": "French"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/czech",
+      "text": "Czech"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/japanese",
+      "text": "Japanese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/italian",
+      "text": "Italian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/slovak",
+      "text": "Slovak"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/russian",
+      "text": "Russian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/polish",
+      "text": "Polish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/greek",
+      "text": "Greek"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/finnish",
+      "text": "Finnish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/norwegian",
+      "text": "Norwegian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/german",
+      "text": "German"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/ukrainian",
+      "text": "Ukrainian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/romanian",
+      "text": "Romanian"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "id": "top-timers",
+      "href": "#",
+      "classes": "top-timers !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle notifications-icon !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Mark all as read",
+      "classes": "tw-text-right tw-inline"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/390",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/391",
+      "text": "Contract with subject 21 has been signed by the customer\n   ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/list_estimates/3",
+      "text": "An estimate with number EST-002024 has been viewed\n         ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/list_proposals/146",
+      "text": "Proposal Declined - PRO-000146\n                    \n        ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/317?group=attachments",
+      "text": "admin Sample Data - New File(s) Uploaded in ProfileCustomer\n",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/2",
+      "text": "An invoice with number INV-DRAFT has been viewed\n           ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/3",
+      "text": "An invoice with number INV-000001 has been viewed\n          ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "classes": "logo img-responsive !tw-mt-0"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "text": "Dashboard"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients",
+      "text": "Customers"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects",
+      "text": "Projects"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tasks",
+      "text": "Tasks"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts",
+      "text": "Contracts"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals",
+      "text": "Proposals"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates",
+      "text": "Estimates"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices",
+      "text": "Invoices"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/payments",
+      "text": "Payments"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes",
+      "text": "Credit Notes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoice_items",
+      "text": "Items"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions",
+      "text": "Subscriptions"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets",
+      "text": "Support"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimate_request",
+      "text": "Estimate Request"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base",
+      "text": "Knowledge Base"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Utilities"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/media",
+      "text": "Media"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/bulk_pdf_exporter",
+      "text": "Bulk PDF Export"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar",
+      "text": "Calendar"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Reports"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/sales",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses_vs_income",
+      "text": "Expenses vs Income"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets?view=all",
+      "text": "Timesheets overview"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/knowledge_base_articles",
+      "text": "KB Articles"
+    },
+    {
+      "tag": "a",
+      "href": "#contact_info",
+      "text": "Customer Details"
+    },
+    {
+      "tag": "a",
+      "href": "#billing_and_shipping",
+      "text": "Billing & Shipping"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Same as Customer Info",
+      "classes": "billing-same-as-customer tw-text-sm tw-text-neutral-500 hover:tw-text-neutral-70"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Copy Billing Address",
+      "classes": "customer-copy-billing-address tw-text-sm tw-text-neutral-500 hover:tw-text-neutr"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-prev"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-next"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "a",
+      "href": "#contact_info",
+      "text": "Customer Details"
+    },
+    {
+      "tag": "a",
+      "href": "#billing_and_shipping",
+      "text": "Billing & Shipping"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Select All",
+      "classes": "actions-btn bs-select-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Deselect All",
+      "classes": "actions-btn bs-deselect-all btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "System Default",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "System Default",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save and create contact",
+      "classes": "btn btn-default save-and-add-contact customer-form-submiter"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary only-save customer-form-submiter"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "label",
+      "text": "Show primary contact full name on Invoices, Estimates, Payme"
+    },
+    {
+      "tag": "label",
+      "text": "* Company",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "VAT Number",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Phone",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Website",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Groups",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Currency",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Default Language",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Address",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "City",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "State",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Zip Code",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Country",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Street",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "City",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "State",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Zip Code",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Country",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Street",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "City",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "State",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Zip Code",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Country",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "* Name",
+      "classes": "control-label"
+    }
+  ],
+  "customer_detail_url": "https://crm.anhtester.com/admin/clients/client/9114",
+  "customer_detail_page": [
+    {
+      "tag": "input",
+      "id": "search_input",
+      "type": "search",
+      "placeholder": "Search...",
+      "classes": "tw-px-4 tw-ml-1 tw-mt-2.5 focus:!tw-ring-0 tw-w-full !tw-placeholder-neutral-400"
+    },
+    {
+      "tag": "input",
+      "name": "isedit",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "name": "userid",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "show_primary_contact",
+      "name": "show_primary_contact",
+      "type": "checkbox"
+    },
+    {
+      "tag": "input",
+      "id": "company",
+      "name": "company",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "vat",
+      "name": "vat",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "phonenumber",
+      "name": "phonenumber",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "website",
+      "name": "website",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "city",
+      "name": "city",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "state",
+      "name": "state",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "zip",
+      "name": "zip",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "placeholder": "Search...",
+      "classes": "form-control input-sm"
+    },
+    {
+      "tag": "input",
+      "id": "billing_city",
+      "name": "billing_city",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "billing_state",
+      "name": "billing_state",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "billing_zip",
+      "name": "billing_zip",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "shipping_city",
+      "name": "shipping_city",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "shipping_state",
+      "name": "shipping_state",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "shipping_zip",
+      "name": "shipping_zip",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "name",
+      "name": "name",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "id",
+      "type": "hidden"
+    },
+    {
+      "tag": "textarea",
+      "id": "address",
+      "name": "address",
+      "type": "textarea",
+      "classes": "form-control"
+    },
+    {
+      "tag": "textarea",
+      "id": "billing_street",
+      "name": "billing_street",
+      "type": "textarea",
+      "classes": "form-control"
+    },
+    {
+      "tag": "textarea",
+      "id": "shipping_street",
+      "name": "shipping_street",
+      "type": "textarea",
+      "classes": "form-control"
+    },
+    {
+      "tag": "select",
+      "id": "groups_in[]",
+      "name": "groups_in[]",
+      "type": "select-multiple",
+      "text": "123\n123\na\nA1\naaa\naaa\naaaa\naaaa\naaaa\nabb\nabb\nabbb\nabbbb\nafk\na",
+      "classes": "selectpicker _select_input_group"
+    },
+    {
+      "tag": "select",
+      "id": "default_currency",
+      "name": "default_currency",
+      "type": "select-one",
+      "text": "USD\nEUR",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "default_language",
+      "name": "default_language",
+      "type": "select-one",
+      "text": "System Default\nEnglish\nChinese\nVietnamese\nIndonesia\nBulgaria",
+      "classes": "form-control selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "country",
+      "name": "country",
+      "type": "select-one",
+      "text": "Afghanistan\nAland Islands\nAlbania\nAlgeria\nAmerican Samoa\nAnd",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "name": "DataTables_Table_0_length",
+      "type": "select-one",
+      "text": "102550100All",
+      "classes": "form-control input-sm"
+    },
+    {
+      "tag": "select",
+      "id": "billing_country",
+      "name": "billing_country",
+      "type": "select-one",
+      "text": "AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraA",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "shipping_country",
+      "name": "shipping_country",
+      "type": "select-one",
+      "text": "AfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraA",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "select",
+      "id": "customer_admins[]",
+      "name": "customer_admins[]",
+      "type": "select-multiple",
+      "text": "Project ManagerAdmin Anh TesterAdmin Example",
+      "classes": "selectpicker"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "classes": "tw-outline-none tw-border-0 tw-text-neutral-600"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "navbar-toggle visible-md visible-sm visible-xs mobile-menu-toggle collapsed tw-m"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "123",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Select All",
+      "classes": "actions-btn bs-select-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Deselect All",
+      "classes": "actions-btn bs-deselect-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "USD",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Vietnamese",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Vietnam",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Export",
+      "classes": "btn btn-default buttons-collection btn-sm btn-default-dt-options"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary only-save customer-form-submiter"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "!tw-px-0 tw-group !tw-text-white"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/invoice",
+      "text": "Invoice",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/estimate",
+      "text": "Estimate",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/proposal",
+      "text": "Proposal",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes/credit_note",
+      "text": "Credit Note",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client",
+      "text": "Customer",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions/create",
+      "text": "Subscription",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects/project",
+      "text": "Project",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Task",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses/expense",
+      "text": "Expense",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract",
+      "text": "Contract",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base/article",
+      "text": "Article",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets/add",
+      "text": "Ticket",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar?new_event=true&date=09-05-2026",
+      "text": "Event",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Share documents, ideas..",
+      "classes": "open_newsfeed mobile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "open_newsfeed desktop"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/todo",
+      "text": "2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle profile tw-block rtl:!tw-px-0.5 !tw-py-1"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Language"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language",
+      "text": "System Default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/english",
+      "text": "English"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/chinese",
+      "text": "Chinese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/vietnamese",
+      "text": "Vietnamese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/indonesia",
+      "text": "Indonesia"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/bulgarian",
+      "text": "Bulgarian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese_br",
+      "text": "Portuguese_br"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/swedish",
+      "text": "Swedish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/dutch",
+      "text": "Dutch"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/persian",
+      "text": "Persian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/turkish",
+      "text": "Turkish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/catalan",
+      "text": "Catalan"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/spanish",
+      "text": "Spanish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese",
+      "text": "Portuguese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/french",
+      "text": "French"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/czech",
+      "text": "Czech"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/japanese",
+      "text": "Japanese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/italian",
+      "text": "Italian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/slovak",
+      "text": "Slovak"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/russian",
+      "text": "Russian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/polish",
+      "text": "Polish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/greek",
+      "text": "Greek"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/finnish",
+      "text": "Finnish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/norwegian",
+      "text": "Norwegian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/german",
+      "text": "German"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/ukrainian",
+      "text": "Ukrainian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/romanian",
+      "text": "Romanian"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "id": "top-timers",
+      "href": "#",
+      "classes": "top-timers !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle notifications-icon !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Mark all as read",
+      "classes": "tw-text-right tw-inline"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/390",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/391",
+      "text": "Contract with subject 21 has been signed by the customer\n   ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/list_estimates/3",
+      "text": "An estimate with number EST-002024 has been viewed\n         ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/list_proposals/146",
+      "text": "Proposal Declined - PRO-000146\n                    \n        ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/317?group=attachments",
+      "text": "admin Sample Data - New File(s) Uploaded in ProfileCustomer\n",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/2",
+      "text": "An invoice with number INV-DRAFT has been viewed\n           ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/3",
+      "text": "An invoice with number INV-000001 has been viewed\n          ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "classes": "logo img-responsive !tw-mt-0"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "text": "Dashboard"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients",
+      "text": "Customers"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects",
+      "text": "Projects"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tasks",
+      "text": "Tasks"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts",
+      "text": "Contracts"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals",
+      "text": "Proposals"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates",
+      "text": "Estimates"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices",
+      "text": "Invoices"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/payments",
+      "text": "Payments"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes",
+      "text": "Credit Notes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoice_items",
+      "text": "Items"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions",
+      "text": "Subscriptions"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets",
+      "text": "Support"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimate_request",
+      "text": "Estimate Request"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base",
+      "text": "Knowledge Base"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Utilities"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/media",
+      "text": "Media"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/bulk_pdf_exporter",
+      "text": "Bulk PDF Export"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar",
+      "text": "Calendar"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Reports"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/sales",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses_vs_income",
+      "text": "Expenses vs Income"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets?view=all",
+      "text": "Timesheets overview"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/knowledge_base_articles",
+      "text": "KB Articles"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle btn-link"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/delete/9114",
+      "text": "Delete",
+      "classes": "text-danger delete-text _delete"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=profile",
+      "text": "Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=contacts",
+      "text": "Contacts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=notes",
+      "text": "Notes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=statement",
+      "text": "Statement"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=invoices",
+      "text": "Invoices"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=payments",
+      "text": "Payments"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=proposals",
+      "text": "Proposals"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=credit_notes",
+      "text": "Credit Notes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=estimates",
+      "text": "Estimates"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=subscriptions",
+      "text": "Subscriptions"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=contracts",
+      "text": "Contracts"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=projects",
+      "text": "Projects"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=tasks",
+      "text": "Tasks"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=tickets",
+      "text": "Tickets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=attachments",
+      "text": "Files"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=vault",
+      "text": "Vault"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=reminders",
+      "text": "Reminders"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/9114?group=map",
+      "text": "Map"
+    },
+    {
+      "tag": "a",
+      "href": "#contact_info",
+      "text": "Customer Details"
+    },
+    {
+      "tag": "a",
+      "href": "#billing_and_shipping",
+      "text": "Billing & Shipping"
+    },
+    {
+      "tag": "a",
+      "href": "#customer_admins",
+      "text": "Customer Admins"
+    },
+    {
+      "tag": "a",
+      "href": "http://ba.com",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Assign Admin",
+      "classes": "btn btn-primary mbot30"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Previous"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Next"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Same as Customer Info",
+      "classes": "billing-same-as-customer tw-text-sm tw-text-neutral-500 hover:tw-text-neutral-70"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Copy Billing Address",
+      "classes": "customer-copy-billing-address tw-text-sm tw-text-neutral-500 hover:tw-text-neutr"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-prev"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-next"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "th",
+      "ariaLabel": "Staff Member activate to sort column descending",
+      "text": "Staff Member",
+      "classes": "sorting sorting_asc"
+    },
+    {
+      "tag": "th",
+      "ariaLabel": "Date Assigned activate to sort column ascending",
+      "text": "Date Assigned",
+      "classes": "sorting"
+    },
+    {
+      "tag": "th",
+      "ariaLabel": "Options activate to sort column ascending",
+      "text": "Options",
+      "classes": "sorting not-export"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "a",
+      "href": "#contact_info",
+      "text": "Customer Details"
+    },
+    {
+      "tag": "a",
+      "href": "#billing_and_shipping",
+      "text": "Billing & Shipping"
+    },
+    {
+      "tag": "a",
+      "href": "#customer_admins",
+      "text": "Customer Admins"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "http://ba.com",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "123",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Select All",
+      "classes": "actions-btn bs-select-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Deselect All",
+      "classes": "actions-btn bs-deselect-all btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "USD",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Vietnamese",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Vietnam",
+      "classes": "btn dropdown-toggle btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Assign Admin",
+      "classes": "btn btn-primary mbot30"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Export",
+      "classes": "btn btn-default buttons-collection btn-sm btn-default-dt-options"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary only-save customer-form-submiter"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "label",
+      "text": "Show primary contact full name on Invoices, Estimates, Payme"
+    },
+    {
+      "tag": "label",
+      "text": "* Company",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "VAT Number",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Phone",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Website"
+    },
+    {
+      "tag": "label",
+      "text": "Groups",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Currency",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Default Language",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Address",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "City",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "State",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Zip Code",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Country",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "102550100All"
+    },
+    {
+      "tag": "label",
+      "text": "Street",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "City",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "State",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Zip Code",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Country",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Street",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "City",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "State",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Zip Code",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Country",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "* Name",
+      "classes": "control-label"
+    }
+  ],
+  "sidebar_tab_texts": [
+    "",
+    "",
+    "Dashboard",
+    "Customers",
+    "Projects",
+    "Tasks",
+    "Contracts",
+    "Sales",
+    "\n                                                \n                            Proposals                        \n                    ",
+    "\n                                                \n                            Estimates                        \n                    ",
+    "\n                                                \n                            Invoices                        \n                    ",
+    "\n                                                \n                            Payments                        \n                    ",
+    "\n                                                \n                            Credit Notes                        \n                    ",
+    "\n                                                \n                            Items                        \n                    ",
+    "Subscriptions",
+    "Expenses",
+    "Support",
+    "Leads",
+    "Estimate Request",
+    "Knowledge Base",
+    "Utilities",
+    "\n                                                \n                            Media                        \n                    ",
+    "\n                                                \n                            Bulk PDF Export                        \n                    ",
+    "\n                                                \n                            Calendar                        \n                    ",
+    "Reports",
+    "\n                                                \n                            Sales                        \n                    ",
+    "\n                                                \n                            Expenses                        \n                    ",
+    "\n                                                \n                            Expenses vs Income                        \n                    ",
+    "\n                                                \n                            Leads                        \n                    ",
+    "\n                                                \n                            Timesheets overview                        \n                    ",
+    "\n                                                \n                            KB Articles                        \n                    ",
+    " Profile",
+    " Contacts",
+    " Notes",
+    " Statement",
+    " Invoices",
+    " Payments",
+    " Proposals",
+    " Credit Notes",
+    " Estimates",
+    " Subscriptions",
+    " Expenses",
+    " Contracts",
+    " Projects",
+    " Tasks",
+    " Tickets",
+    " Files",
+    " Vault",
+    " Reminders",
+    " Map",
+    "Customer Details",
+    "Billing & Shipping",
+    "Customer Admins"
+  ],
+  "customer_import_page": [
+    {
+      "tag": "input",
+      "id": "search_input",
+      "type": "search",
+      "placeholder": "Search...",
+      "classes": "tw-px-4 tw-ml-1 tw-mt-2.5 focus:!tw-ring-0 tw-w-full !tw-placeholder-neutral-400"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "name": "download_sample",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "name": "clients_import",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "file_csv",
+      "name": "file_csv",
+      "type": "file",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "id": "default_pass_all",
+      "name": "default_pass_all",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "csrf_token_name",
+      "type": "hidden"
+    },
+    {
+      "tag": "input",
+      "id": "name",
+      "name": "name",
+      "type": "text",
+      "classes": "form-control"
+    },
+    {
+      "tag": "input",
+      "name": "id",
+      "type": "hidden"
+    },
+    {
+      "tag": "select",
+      "id": "groups_in[]",
+      "name": "groups_in[]",
+      "type": "select-multiple",
+      "text": "123\n123\na\nA1\naaa\naaa\naaaa\naaaa\naaaa\nabb\nabb\nabbb\nabbbb\nafk\na",
+      "classes": "selectpicker _select_input_group"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "classes": "tw-outline-none tw-border-0 tw-text-neutral-600"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "classes": "navbar-toggle visible-md visible-sm visible-xs mobile-menu-toggle collapsed tw-m"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Download Sample",
+      "classes": "btn btn-success"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Select All",
+      "classes": "actions-btn bs-select-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Deselect All",
+      "classes": "actions-btn bs-deselect-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Import",
+      "classes": "btn btn-primary import btn-import-submit"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Simulate Import",
+      "classes": "btn btn-primary simulate btn-import-submit"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "!tw-px-0 tw-group !tw-text-white"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/invoice",
+      "text": "Invoice",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/estimate",
+      "text": "Estimate",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/proposal",
+      "text": "Proposal",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes/credit_note",
+      "text": "Credit Note",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client",
+      "text": "Customer",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions/create",
+      "text": "Subscription",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects/project",
+      "text": "Project",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Task",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses/expense",
+      "text": "Expense",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract",
+      "text": "Contract",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base/article",
+      "text": "Article",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets/add",
+      "text": "Ticket",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar?new_event=true&date=09-05-2026",
+      "text": "Event",
+      "classes": "tw-group tw-inline-flex tw-space-x-0.5 tw-text-neutral-700"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Share documents, ideas..",
+      "classes": "open_newsfeed mobile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "open_newsfeed desktop"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/todo",
+      "text": "2"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle profile tw-block rtl:!tw-px-0.5 !tw-py-1"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile",
+      "text": "My Profile"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets",
+      "text": "My Timesheets"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/edit_profile",
+      "text": "Edit Profile"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Language"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language",
+      "text": "System Default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/english",
+      "text": "English"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/chinese",
+      "text": "Chinese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/vietnamese",
+      "text": "Vietnamese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/indonesia",
+      "text": "Indonesia"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/bulgarian",
+      "text": "Bulgarian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese_br",
+      "text": "Portuguese_br"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/swedish",
+      "text": "Swedish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/dutch",
+      "text": "Dutch"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/persian",
+      "text": "Persian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/turkish",
+      "text": "Turkish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/catalan",
+      "text": "Catalan"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/spanish",
+      "text": "Spanish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/portuguese",
+      "text": "Portuguese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/french",
+      "text": "French"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/czech",
+      "text": "Czech"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/japanese",
+      "text": "Japanese"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/italian",
+      "text": "Italian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/slovak",
+      "text": "Slovak"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/russian",
+      "text": "Russian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/polish",
+      "text": "Polish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/greek",
+      "text": "Greek"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/finnish",
+      "text": "Finnish"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/norwegian",
+      "text": "Norwegian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/german",
+      "text": "German"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/ukrainian",
+      "text": "Ukrainian"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/change_language/romanian",
+      "text": "Romanian"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Logout"
+    },
+    {
+      "tag": "a",
+      "id": "top-timers",
+      "href": "#",
+      "classes": "top-timers !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "dropdown-toggle notifications-icon !tw-px-0 tw-group"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Mark all as read",
+      "classes": "tw-text-right tw-inline"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/390",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/391",
+      "text": "Contract with subject 21 has been signed by the customer\n   ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates/list_estimates/3",
+      "text": "An estimate with number EST-002024 has been viewed\n         ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/65",
+      "text": "New comment from customer on contract Test ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts/contract/64",
+      "text": "New comment from customer on contract tets ...\n             ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals/list_proposals/146",
+      "text": "Proposal Declined - PRO-000146\n                    \n        ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients/client/317?group=attachments",
+      "text": "admin Sample Data - New File(s) Uploaded in ProfileCustomer\n",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/2",
+      "text": "An invoice with number INV-DRAFT has been viewed\n           ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices/list_invoices/3",
+      "text": "An invoice with number INV-000001 has been viewed\n          ",
+      "classes": "notification-handler !tw-p-0  tw-cursor-pointer notification-top notification-li"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "classes": "logo img-responsive !tw-mt-0"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/",
+      "text": "Dashboard"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/clients",
+      "text": "Customers"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/projects",
+      "text": "Projects"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tasks",
+      "text": "Tasks"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/contracts",
+      "text": "Contracts"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/proposals",
+      "text": "Proposals"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimates",
+      "text": "Estimates"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoices",
+      "text": "Invoices"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/payments",
+      "text": "Payments"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/credit_notes",
+      "text": "Credit Notes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/invoice_items",
+      "text": "Items"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/subscriptions",
+      "text": "Subscriptions"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/tickets",
+      "text": "Support"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/estimate_request",
+      "text": "Estimate Request"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/knowledge_base",
+      "text": "Knowledge Base"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Utilities"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/media",
+      "text": "Media"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/bulk_pdf_exporter",
+      "text": "Bulk PDF Export"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/utilities/calendar",
+      "text": "Calendar"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Reports"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/sales",
+      "text": "Sales"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses",
+      "text": "Expenses"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/expenses_vs_income",
+      "text": "Expenses vs Income"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/leads",
+      "text": "Leads"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/staff/timesheets?view=all",
+      "text": "Timesheets overview"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/reports/knowledge_base_articles",
+      "text": "KB Articles"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/settings?group=clients",
+      "text": "Setup->Settings->Customers"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-prev"
+    },
+    {
+      "tag": "a",
+      "classes": "lb-next"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "ariaLabel": "Search",
+      "classes": "form-control"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "ariaLabel": "Close",
+      "text": "×",
+      "classes": "close"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Start Timer",
+      "classes": "tw-mt-3 text-center btn btn-primary started-timers-button  btn-sm top-dropdown-b"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/profile?notifications=true",
+      "text": "View all notifications",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Download Sample",
+      "classes": "btn btn-success"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Nothing selected",
+      "classes": "btn dropdown-toggle btn-default bs-placeholder"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Select All",
+      "classes": "actions-btn bs-select-all btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Deselect All",
+      "classes": "actions-btn bs-deselect-all btn btn-default"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Import",
+      "classes": "btn btn-primary import btn-import-submit"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "text": "Simulate Import",
+      "classes": "btn btn-primary simulate btn-import-submit"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Close",
+      "classes": "btn btn-default"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "text": "Save",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_likes"
+    },
+    {
+      "tag": "a",
+      "href": "#",
+      "text": "Load More",
+      "classes": "btn btn-primary load_more_post_comment_likes"
+    },
+    {
+      "tag": "a",
+      "href": "https://crm.anhtester.com/admin/authentication/logout",
+      "text": "Logout",
+      "classes": "btn btn-danger"
+    },
+    {
+      "tag": "label",
+      "text": "* Choose CSV File",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Groups",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "Default password for all contacts",
+      "classes": "control-label"
+    },
+    {
+      "tag": "label",
+      "text": "* Name",
+      "classes": "control-label"
+    }
+  ]
+}
