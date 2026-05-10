@@ -1,0 +1,11 @@
+.env
+target/
+*.class
+*.apk
+*.ipa
+apps/*.apk
+apps/*.ipa
+allure-results/
+allure-report/
+.idea/
+*.iml

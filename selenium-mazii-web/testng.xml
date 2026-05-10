@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mazii Dich Hoi Thoai Web Suite" verbose="1">
+
+    <test name="Dich Hoi Thoai Web - Empty State">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiEmptyStateTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Paywall">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiPaywallTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Mic Permission">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiMicPermissionTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Bubble Chat">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiBubbleChatTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Bubble Interactions">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiBubbleInteractionTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Language Selection">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiLanguageTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Clear History">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiClearHistoryTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Offline">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiOfflineTest"/>
+        </classes>
+    </test>
+
+    <test name="Dich Hoi Thoai Web - Keyboard Mode">
+        <classes>
+            <class name="com.mazii.web.tests.hoi_thoai.HoiThoaiKeyboardModeTest"/>
+        </classes>
+    </test>
+
+</suite>

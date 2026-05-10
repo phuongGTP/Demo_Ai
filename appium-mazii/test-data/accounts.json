@@ -1,0 +1,21 @@
+{
+  "accounts": {
+    "premium": {
+      "email": "${ACCOUNT_PREMIUM_EMAIL}",
+      "password": "${ACCOUNT_PREMIUM_PASSWORD}",
+      "type": "Premium"
+    },
+    "standard": {
+      "email": "${ACCOUNT_STANDARD_EMAIL}",
+      "password": "${ACCOUNT_STANDARD_PASSWORD}",
+      "type": "Standard"
+    }
+  },
+  "languages": [
+    "Tiếng Nhật",
+    "Tiếng Việt",
+    "Tiếng Anh",
+    "Tiếng Hàn",
+    "Tiếng Trung"
+  ]
+}

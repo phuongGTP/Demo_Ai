@@ -1,0 +1,147 @@
+{
+  "id": "mazii_dich_hoi_thoai_vrt",
+  "viewports": [
+    {
+      "label": "Mobile 375px",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "label": "Desktop 1440px",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "TC_001 | Empty State",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "div.intro-container",
+      "delay": 1000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [
+        "app-conversation-translation",
+        "div.intro-container",
+        "button.rounded-circle",
+        "button.btn-action"
+      ],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "TC_006 | Mic Recording State (JP)",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "readySelector": "app-conversation-translation",
+      "clickSelector": "app-conversation-translation .box-language:first-of-type button.rounded-circle",
+      "postInteractionWait": 500,
+      "selectors": [
+        "app-conversation-translation",
+        "button.rounded-circle.active",
+        "button.btn-danger"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "TC_025 | Delete History Modal",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "readySelector": ".modal.show",
+      "selectors": [
+        ".modal.show",
+        ".modal-backdrop",
+        "button.btn-submit",
+        "button.btn-cancel"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "TC_029 | Offline Toast",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "readySelector": "[class*='toast'], [role='alert']",
+      "selectors": [
+        "[class*='toast']",
+        "[role='alert']",
+        "[class*='alert-msg']"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "TC_031 | Keyboard Mode",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "readySelector": "app-conversation-translation .input-container",
+      "clickSelector": "button.btn-action",
+      "postInteractionWait": 500,
+      "selectors": [
+        "app-conversation-translation .input-container",
+        "input.form-control",
+        "button.btn-primary.rounded-circle"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "TC_016 | Bubble with Play Button",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "readySelector": "div.chat-message",
+      "hoverSelector": "div.chat-message:first-child",
+      "selectors": [
+        "div.chat-scroll",
+        "div.chat-message",
+        "button.btn-audio",
+        "button.btn.p-0"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "TC_022 | Language Dropdown",
+      "url": "https://beta.mazii.net/vi-VN/conversation-translation",
+      "readySelector": "button.txt-lang",
+      "selectors": [
+        "app-conversation-translation .box-language",
+        "button.txt-lang",
+        "app-conversation-translation .dropdown-menu"
+      ],
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": [
+    "browser",
+    "CI"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-gpu",
+      "--disable-dev-shm-usage"
+    ],
+    "headless": true
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "strict": false,
+  "debug": false,
+  "debugWindow": false
+}

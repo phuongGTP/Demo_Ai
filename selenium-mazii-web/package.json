@@ -1,0 +1,16 @@
+{
+  "name": "selenium-mazii-web",
+  "version": "1.0.0",
+  "description": "Automation test scripts cho tính năng **Dịch hội thoại** trên nền tảng Web (mazii.net).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "backstopjs": "^6.3.25",
+    "puppeteer": "^24.43.0"
+  }
+}
