@@ -1,0 +1,651 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "menu" [ref=e7] [cursor=pointer]:
+          - img "menu" [ref=e8]
+        - generic [ref=e9]:
+          - link "v2/ic_dict Tra cứu" [ref=e11] [cursor=pointer]:
+            - /url: /vi-VN/search
+            - img "v2/ic_dict" [ref=e12]
+            - generic: Tra cứu
+          - link "v2/ic_learning_hub Học tập" [ref=e14] [cursor=pointer]:
+            - /url: /vi-VN/learning-hub
+            - img "v2/ic_learning_hub" [ref=e15]
+            - generic: Học tập
+          - link "v2/ic_translate Dịch" [ref=e17] [cursor=pointer]:
+            - /url: /vi-VN/translate
+            - img "v2/ic_translate" [ref=e18]
+            - generic: Dịch
+          - link "v2/ic_test Thi thử" [ref=e20] [cursor=pointer]:
+            - /url: /vi-VN/test
+            - img "v2/ic_test" [ref=e21]
+            - generic: Thi thử
+          - link "v2/ic_qa Cộng đồng" [ref=e23] [cursor=pointer]:
+            - /url: /vi-VN/qa
+            - img "v2/ic_qa" [ref=e24]
+            - generic: Cộng đồng
+          - separator [ref=e25]
+          - link "v2/ic_news Luyện đọc" [ref=e27] [cursor=pointer]:
+            - /url: /vi-VN/news
+            - img "v2/ic_news" [ref=e28]
+            - generic: Luyện đọc
+          - link "ic_conversation1 Hội thoại" [ref=e30] [cursor=pointer]:
+            - /url: /vi-VN/conversation
+            - img "ic_conversation1" [ref=e31]
+            - generic: Hội thoại
+          - link "v2/ic_opendict Từ điển mở" [ref=e33] [cursor=pointer]:
+            - /url: /vi-VN/opendict
+            - img "v2/ic_opendict" [ref=e34]
+            - generic: Từ điển mở
+          - link "v2/ic_cvname Tên tiếng Nhật" [ref=e36] [cursor=pointer]:
+            - /url: /vi-VN/convert-name
+            - img "v2/ic_cvname" [ref=e37]
+            - generic: Tên tiếng Nhật
+          - separator [ref=e38]
+          - link "ic_upgrade Nâng cấp premium" [ref=e40] [cursor=pointer]:
+            - /url: /vi-VN/upgrade
+            - img "ic_upgrade" [ref=e41]
+            - generic:
+              - text: Nâng cấp
+              - img "premium" [ref=e44]
+          - link "v2/ic_setting Cài đặt" [ref=e46] [cursor=pointer]:
+            - /url: /vi-VN/setting
+            - img "v2/ic_setting" [ref=e47]
+            - generic: Cài đặt
+          - link "ic_intro Giới thiệu" [ref=e49] [cursor=pointer]:
+            - /url: /vi-VN/intro
+            - img "ic_intro" [ref=e50]
+            - generic: Giới thiệu
+          - link "ic_job Việc làm" [ref=e52] [cursor=pointer]:
+            - /url: https://job.mazii.net/vi-VN
+            - img "ic_job" [ref=e53]
+            - generic: Việc làm
+          - link "ic_blog Blog" [ref=e55] [cursor=pointer]:
+            - /url: https://mazii.net/vi-VN/blog
+            - img "ic_blog" [ref=e56]
+            - generic: Blog
+          - link "ic_affiliate Tiếp thị liên kết" [ref=e58] [cursor=pointer]:
+            - /url: https://mazii.net/vi-VN/affiliate
+            - img "ic_affiliate" [ref=e59]
+            - generic: Tiếp thị liên kết
+          - separator [ref=e60]
+      - generic [ref=e62]:
+        - banner [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - link "Mazii" [ref=e75] [cursor=pointer]:
+                - /url: /vi-VN
+                - img "Mazii" [ref=e76]
+              - text: Chào ngày mới !
+            - generic [ref=e77]:
+              - button "Đăng nhập" [ref=e78] [cursor=pointer]
+              - button "Đăng ký" [ref=e79] [cursor=pointer]
+              - button "Vietnameseicon" [ref=e83] [cursor=pointer]:
+                - generic [ref=e84]:
+                  - img "Vietnamese" [ref=e85]
+                  - img "icon" [ref=e86]
+              - button "notify" [ref=e92] [cursor=pointer]:
+                - img "notify" [ref=e93]
+              - button "fire" [ref=e94] [cursor=pointer]:
+                - img "fire" [ref=e95]
+        - generic [ref=e98]:
+          - heading "site_title" [level=1] [ref=e99]
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - button "search" [ref=e105] [cursor=pointer]:
+                  - img "search" [ref=e106]
+                - textbox "日本, nihon, Nhật Bản" [ref=e107]
+                - generic [ref=e110]:
+                  - button "draw-kanji" [ref=e111] [cursor=pointer]:
+                    - img "draw" [ref=e112]
+                  - button "search-radical" [ref=e113] [cursor=pointer]:
+                    - img "radical" [ref=e114]
+                  - button "voice" [ref=e115] [cursor=pointer]:
+                    - img "voice" [ref=e116]
+                  - button "file" [ref=e117] [cursor=pointer]:
+                    - img "file" [ref=e118]
+              - button "Nhật - Việt select" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: Nhật - Việt
+                - img "select" [ref=e122]
+            - generic [ref=e123]:
+              - button "Chế độ AI chat-ai" [ref=e124] [cursor=pointer]:
+                - text: Chế độ AI
+                - img "chat-ai" [ref=e125]
+              - heading "Từ vựng" [level=2] [ref=e126]:
+                - button "Từ vựng" [ref=e127] [cursor=pointer]
+              - button "Hán tự" [ref=e128] [cursor=pointer]
+              - button "Mẫu câu" [ref=e129] [cursor=pointer]
+              - button "Ngữ pháp" [ref=e130] [cursor=pointer]
+              - button "Nhật - Nhật" [ref=e131] [cursor=pointer]
+          - generic [ref=e135]:
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - heading "Từ vựng trong ngày" [level=2] [ref=e140]: Từ vựng trong ngày
+                - link "Xem thêm" [ref=e142] [cursor=pointer]:
+                  - /url: /vi-VN/note/discover
+              - generic [ref=e144]:
+                - generic [ref=e146]:
+                  - button "Play audio for 表" [ref=e147] [cursor=pointer]:
+                    - img "Play audio" [ref=e148]
+                  - button "表 ひょう biểu; bảng; bảng biểu" [ref=e149] [cursor=pointer]:
+                    - paragraph [ref=e150]: 表
+                    - paragraph [ref=e151]: ひょう
+                    - paragraph [ref=e152]: biểu; bảng; bảng biểu
+                - generic [ref=e154]:
+                  - button "Play audio for こと" [ref=e155] [cursor=pointer]:
+                    - img "Play audio" [ref=e156]
+                  - button "こと particle indicating a command" [ref=e157] [cursor=pointer]:
+                    - paragraph [ref=e158]: こと
+                    - paragraph
+                    - paragraph [ref=e159]: particle indicating a command
+                - generic [ref=e161]:
+                  - button "Play audio for 努力" [ref=e162] [cursor=pointer]:
+                    - img "Play audio" [ref=e163]
+                  - button "努力 どりょく chí tâm" [ref=e164] [cursor=pointer]:
+                    - paragraph [ref=e165]: 努力
+                    - paragraph [ref=e166]: どりょく
+                    - paragraph [ref=e167]: chí tâm
+                - generic [ref=e169]:
+                  - button "Play audio for 重要" [ref=e170] [cursor=pointer]:
+                    - img "Play audio" [ref=e171]
+                  - button "重要 じゅうよう sự trọng yếu; sự quan trọng" [ref=e172] [cursor=pointer]:
+                    - paragraph [ref=e173]: 重要
+                    - paragraph [ref=e174]: じゅうよう
+                    - paragraph [ref=e175]: sự trọng yếu; sự quan trọng
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - heading "Lịch sử" [level=2] [ref=e180]: Lịch sử
+                - button "Xem thêm" [ref=e182] [cursor=pointer]
+              - generic [ref=e184]:
+                - img "icon" [ref=e185]
+                - paragraph [ref=e186]: Chưa có lịch sử
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - heading "Cộng đồng" [level=2] [ref=e324]: Cộng đồng
+                - button "Xem thêm" [ref=e326] [cursor=pointer]
+              - generic [ref=e327]:
+                - generic [ref=e332]:
+                  - heading "Yêu cầu sửa lại sổ tay" [level=3] [ref=e335]:
+                    - link "Yêu cầu sửa lại sổ tay" [ref=e336] [cursor=pointer]:
+                      - /url: /vi-VN/qa/detail/175128
+                      - generic [ref=e337]: Yêu cầu sửa lại sổ tay
+                  - generic [ref=e338]:
+                    - generic [ref=e340]:
+                      - link "name" [ref=e341] [cursor=pointer]:
+                        - /url: /vi-VN/qa/profile/447540
+                        - img "name" [ref=e342]
+                      - generic [ref=e343]:
+                        - paragraph [ref=e344]: ๖ۣۜMạnh ๖ۣۜCường ๖ۣۜVũ
+                        - generic [ref=e345]:
+                          - generic [ref=e346]: Thành viên mới
+                          - img "icon" [ref=e347]
+                          - generic [ref=e348]: 1 giờ trước
+                    - generic [ref=e349]: Học Tiếng Nhật
+                    - generic [ref=e353]: Bản cũ có đánh dấu thuộc chưa thuộc trực tiếp trên danh sách tiện lợi sao lại bỏ Phần thuôc và chưa thuộc phân ra hai cái thôi thêm mấy cái vớ vẩn như thuộc lơ mơ thuộc khá khá làm j rối quá chừng App cập nhật lại dở hơn lúc chưa cập nhật
+                  - generic [ref=e354]:
+                    - button "love 1" [ref=e355] [cursor=pointer]:
+                      - img "love" [ref=e356]
+                      - generic [ref=e357]: "1"
+                    - button "comment 1" [ref=e358] [cursor=pointer]:
+                      - img "comment" [ref=e359]
+                      - generic [ref=e360]: "1"
+                    - button "share" [ref=e365] [cursor=pointer]:
+                      - img "share" [ref=e366]
+                - generic [ref=e371]:
+                  - heading "Chào buổi tối" [level=3] [ref=e374]:
+                    - link "Chào buổi tối" [ref=e375] [cursor=pointer]:
+                      - /url: /vi-VN/qa/detail/175125
+                      - generic [ref=e376]: Chào buổi tối
+                  - generic [ref=e377]:
+                    - generic [ref=e379]:
+                      - link "name" [ref=e380] [cursor=pointer]:
+                        - /url: /vi-VN/qa/profile/776218
+                        - img "name" [ref=e381]
+                      - generic [ref=e382]:
+                        - paragraph [ref=e383]: hasagi ゲエン
+                        - generic [ref=e384]:
+                          - generic [ref=e385]: Thành viên mới
+                          - img "icon" [ref=e386]
+                          - generic [ref=e387]: 4 giờ trước
+                    - generic [ref=e388]: Cuộc sống hàng ngày ở Nhật Bản
+                    - generic [ref=e392]: 1 chủ nhật vui vẻ
+                  - generic [ref=e393]:
+                    - button "love 0" [ref=e394] [cursor=pointer]:
+                      - img "love" [ref=e395]
+                      - generic [ref=e396]: "0"
+                    - button "comment 0" [ref=e397] [cursor=pointer]:
+                      - img "comment" [ref=e398]
+                      - generic [ref=e399]: "0"
+                    - button "share" [ref=e404] [cursor=pointer]:
+                      - img "share" [ref=e405]
+                - generic [ref=e410]:
+                  - heading "SHARE TÀI KHOẢN AANIME.BIZ" [level=3] [ref=e413]:
+                    - link "SHARE TÀI KHOẢN AANIME.BIZ" [ref=e414] [cursor=pointer]:
+                      - /url: /vi-VN/qa/detail/175124
+                      - generic [ref=e415]: SHARE TÀI KHOẢN AANIME.BIZ
+                  - generic [ref=e416]:
+                    - generic [ref=e418]:
+                      - link "name" [ref=e419] [cursor=pointer]:
+                        - /url: /vi-VN/qa/profile/513249
+                        - img "name" [ref=e420]
+                      - generic [ref=e421]:
+                        - paragraph [ref=e422]: チュン
+                        - generic [ref=e423]:
+                          - generic [ref=e424]: Thành viên mới
+                          - img "icon" [ref=e425]
+                          - generic [ref=e426]: 8 giờ trước
+                    - generic [ref=e427]: Học Tiếng Nhật
+                    - generic [ref=e431]: MÌNH SHARE TÀI KHOẢN AANIME.BIZ 1 NĂM Ạ. AI QUAN TÂM IB MÌNH VỚI
+                  - generic [ref=e432]:
+                    - button "love 1" [ref=e433] [cursor=pointer]:
+                      - img "love" [ref=e434]
+                      - generic [ref=e435]: "1"
+                    - button "comment 5" [ref=e436] [cursor=pointer]:
+                      - img "comment" [ref=e437]
+                      - generic [ref=e438]: "5"
+                    - button "share" [ref=e443] [cursor=pointer]:
+                      - img "share" [ref=e444]
+                - generic [ref=e449]:
+                  - heading "Tuyển dụng Backend, Frontend engineer đầu Nhật" [level=3] [ref=e452]:
+                    - link "Tuyển dụng Backend, Frontend engineer đầu Nhật" [ref=e453] [cursor=pointer]:
+                      - /url: /vi-VN/qa/detail/175123
+                      - generic [ref=e454]: Tuyển dụng Backend, Frontend engineer đầu Nhật
+                  - generic [ref=e455]:
+                    - generic [ref=e457]:
+                      - link "name" [ref=e458] [cursor=pointer]:
+                        - /url: /vi-VN/qa/profile/238932
+                        - img "name" [ref=e459]
+                      - generic [ref=e460]:
+                        - paragraph [ref=e461]: Ngọc Huyền Dương
+                        - generic [ref=e462]:
+                          - generic [ref=e463]: Thành viên mới
+                          - img "icon" [ref=e464]
+                          - generic [ref=e465]: 8 giờ trước
+                    - generic [ref=e466]: Việc Làm Tiếng Nhật
+                    - generic [ref=e470]: 🌏【Môi trường toàn cầu / Làm việc Full Remote toàn Nhật Bản】Tuyển nhiều vị trí! Hiện tại có nhiều dự án đang triển khai, chúng tôi đang tìm kiếm các kỹ sư tài năng cho các vị trí sau. Nếu bạn quan tâm, vui lòng liên hệ với chúng tôi nhé! ■ Vị trí tuyển dụng ① Senior Backend Engineer (Từ 5 năm kin ...
+                  - generic [ref=e471]:
+                    - button "love 0" [ref=e472] [cursor=pointer]:
+                      - img "love" [ref=e473]
+                      - generic [ref=e474]: "0"
+                    - button "comment 0" [ref=e475] [cursor=pointer]:
+                      - img "comment" [ref=e476]
+                      - generic [ref=e477]: "0"
+                    - button "share" [ref=e482] [cursor=pointer]:
+                      - img "share" [ref=e483]
+              - generic [ref=e484]:
+                - button "Left Arrow" [ref=e486] [cursor=pointer]:
+                  - img "Left Arrow" [ref=e487]
+                - button "Left Arrow" [ref=e488] [cursor=pointer]:
+                  - img "Left Arrow" [ref=e489]
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - heading "Luyện đọc" [level=2] [ref=e494]: Luyện đọc
+                - button "Xem thêm" [ref=e496] [cursor=pointer]
+              - generic [ref=e497]:
+                - link "news 日産 にっさん 、ヨーロッパで900 人 にん の 仕事 しごと をなくします Chưa đọc 2026-05-16" [ref=e500] [cursor=pointer]:
+                  - /url: /news/cdb3d228d30c510e0e341c2ede9e2099
+                  - img "news" [ref=e502]
+                  - generic [ref=e503]:
+                    - heading "日産 にっさん 、ヨーロッパで900 人 にん の 仕事 しごと をなくします" [level=3] [ref=e504]:
+                      - generic [ref=e505]:
+                        - generic [ref=e506]: 日産
+                        - generic [ref=e507]: にっさん
+                      - text: 、ヨーロッパで900
+                      - generic [ref=e508]:
+                        - generic [ref=e509]: 人
+                        - generic [ref=e510]: にん
+                      - text: の
+                      - generic [ref=e511]:
+                        - generic [ref=e512]: 仕事
+                        - generic [ref=e513]: しごと
+                      - text: をなくします
+                    - generic [ref=e514]:
+                      - generic [ref=e515]: Chưa đọc
+                      - generic [ref=e516]: 2026-05-16
+                - link "news クラウン くらうん の 椅子 いす を 使 つか った 高 たか い 椅子 いす Chưa đọc 2026-05-16" [ref=e519] [cursor=pointer]:
+                  - /url: /news/f0a0171bf8e2c6053059176bfdd4134c
+                  - img "news" [ref=e521]
+                  - generic [ref=e522]:
+                    - heading "クラウン くらうん の 椅子 いす を 使 つか った 高 たか い 椅子 いす" [level=3] [ref=e523]:
+                      - paragraph [ref=e524]:
+                        - generic [ref=e525]:
+                          - text: クラウン
+                          - generic [ref=e526]: くらうん
+                        - text: の
+                        - generic [ref=e527]:
+                          - text: 椅子
+                          - generic [ref=e528]: いす
+                        - text: を
+                        - generic [ref=e529]:
+                          - text: 使
+                          - generic [ref=e530]: つか
+                        - text: った
+                        - generic [ref=e531]:
+                          - text: 高
+                          - generic [ref=e532]: たか
+                        - text: い
+                        - generic [ref=e533]:
+                          - text: 椅子
+                          - generic [ref=e534]: いす
+                      - paragraph
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: Chưa đọc
+                      - generic [ref=e537]: 2026-05-16
+                - link "news 「トモの 日記 にっき 」 暑 あつ い 日 ひ と 寒 さむ い 日 ひ Chưa đọc 2026-05-16" [ref=e540] [cursor=pointer]:
+                  - /url: /news/f1b06f14deefe426e643e85f53849af5
+                  - img "news" [ref=e542]
+                  - generic [ref=e543]:
+                    - heading "「トモの 日記 にっき 」 暑 あつ い 日 ひ と 寒 さむ い 日 ひ" [level=3] [ref=e544]:
+                      - text: 「トモの
+                      - generic [ref=e545]:
+                        - generic [ref=e546]: 日記
+                        - generic [ref=e547]: にっき
+                      - text: 」
+                      - generic [ref=e548]:
+                        - generic [ref=e549]: 暑
+                        - generic [ref=e550]: あつ
+                      - text: い
+                      - generic [ref=e551]:
+                        - generic [ref=e552]: 日
+                        - generic [ref=e553]: ひ
+                      - text: と
+                      - generic [ref=e554]:
+                        - generic [ref=e555]: 寒
+                        - generic [ref=e556]: さむ
+                      - text: い
+                      - generic [ref=e557]:
+                        - generic [ref=e558]: 日
+                        - generic [ref=e559]: ひ
+                    - generic [ref=e560]:
+                      - generic [ref=e561]: Chưa đọc
+                      - generic [ref=e562]: 2026-05-16
+                - link "news 三重県 みえけん の 神社 じんじゃ で 自転車 じてんしゃ ヘルメットの 安全 あんぜん を 祈 いの る Chưa đọc 2026-05-16" [ref=e565] [cursor=pointer]:
+                  - /url: /news/07f73b799bd7cadbce640ce5b2385b73
+                  - img "news" [ref=e567]
+                  - generic [ref=e568]:
+                    - heading "三重県 みえけん の 神社 じんじゃ で 自転車 じてんしゃ ヘルメットの 安全 あんぜん を 祈 いの る" [level=3] [ref=e569]:
+                      - generic [ref=e570]:
+                        - generic [ref=e571]: 三重県
+                        - generic [ref=e572]: みえけん
+                      - text: の
+                      - generic [ref=e573]:
+                        - generic [ref=e574]: 神社
+                        - generic [ref=e575]: じんじゃ
+                      - text: で
+                      - generic [ref=e576]:
+                        - generic [ref=e577]: 自転車
+                        - generic [ref=e578]: じてんしゃ
+                      - text: ヘルメットの
+                      - generic [ref=e579]:
+                        - generic [ref=e580]: 安全
+                        - generic [ref=e581]: あんぜん
+                      - text: を
+                      - generic [ref=e582]:
+                        - generic [ref=e583]: 祈
+                        - generic [ref=e584]: いの
+                      - text: る
+                    - generic [ref=e585]:
+                      - generic [ref=e586]: Chưa đọc
+                      - generic [ref=e587]: 2026-05-16
+                - link "news Windows 11のセキュリティ 更新 こうしん で 再起動 さいきどう が 多 おお い 理由 りゆう Chưa đọc 2026-05-16" [ref=e590] [cursor=pointer]:
+                  - /url: /news/3668f3682305d6a918d57dea418b44e7
+                  - img "news" [ref=e592]
+                  - generic [ref=e593]:
+                    - heading "Windows 11のセキュリティ 更新 こうしん で 再起動 さいきどう が 多 おお い 理由 りゆう" [level=3] [ref=e594]:
+                      - text: Windows 11のセキュリティ
+                      - generic [ref=e595]:
+                        - generic [ref=e596]: 更新
+                        - generic [ref=e597]: こうしん
+                      - text: で
+                      - generic [ref=e598]:
+                        - generic [ref=e599]: 再起動
+                        - generic [ref=e600]: さいきどう
+                      - text: が
+                      - generic [ref=e601]:
+                        - generic [ref=e602]: 多
+                        - generic [ref=e603]: おお
+                      - text: い
+                      - generic [ref=e604]:
+                        - generic [ref=e605]: 理由
+                        - generic [ref=e606]: りゆう
+                    - generic [ref=e607]:
+                      - generic [ref=e608]: Chưa đọc
+                      - generic [ref=e609]: 2026-05-16
+                - link "news 愛子 あいこ さまのジュースのことで 話題 わだい に Chưa đọc 2026-05-16" [ref=e612] [cursor=pointer]:
+                  - /url: /news/4f5e96990abf7c3568e9e1c8ce8f53c6
+                  - img "news" [ref=e614]
+                  - generic [ref=e615]:
+                    - heading "愛子 あいこ さまのジュースのことで 話題 わだい に" [level=3] [ref=e616]:
+                      - generic [ref=e617]:
+                        - generic [ref=e618]: 愛子
+                        - generic [ref=e619]: あいこ
+                      - text: さまのジュースのことで
+                      - generic [ref=e620]:
+                        - generic [ref=e621]: 話題
+                        - generic [ref=e622]: わだい
+                      - text: に
+                    - generic [ref=e623]:
+                      - generic [ref=e624]: Chưa đọc
+                      - generic [ref=e625]: 2026-05-16
+              - generic [ref=e626]:
+                - button "Left Arrow" [ref=e628] [cursor=pointer]:
+                  - img "Left Arrow" [ref=e629]
+                - button "Left Arrow" [ref=e630] [cursor=pointer]:
+                  - img "Left Arrow" [ref=e631]
+          - generic [ref=e633]:
+            - heading "report Góp ý" [level=2] [ref=e635]:
+              - img "report" [ref=e636]
+              - text: Góp ý
+            - generic [ref=e637]:
+              - generic [ref=e638]:
+                - paragraph [ref=e639] [cursor=pointer]:
+                  - button "半永久的" [ref=e640]
+                  - text: ": mang tính lâu dài"
+                - link "avatar phamngocanh29052004" [ref=e641] [cursor=pointer]:
+                  - /url: /vi-VN/user/info-user/1257285/phamngocanh29052004
+                  - button "avatar" [ref=e642]:
+                    - img "avatar" [ref=e643]
+                  - generic [ref=e644]: phamngocanh29052004
+              - generic [ref=e645]:
+                - paragraph [ref=e646] [cursor=pointer]:
+                  - button "顕著" [ref=e647]
+                  - text: ": それが顕著に表れてると思うは"
+                - link "avatar Ngữ Đỗ" [ref=e648] [cursor=pointer]:
+                  - /url: /vi-VN/user/info-user/1899506/Ng%E1%BB%AF%20%C4%90%E1%BB%97
+                  - button "avatar" [ref=e649]:
+                    - img "avatar" [ref=e650]
+                  - generic [ref=e651]: Ngữ Đỗ
+              - generic [ref=e652]:
+                - paragraph [ref=e653] [cursor=pointer]:
+                  - button "携える" [ref=e654]
+                  - text: ": 今こそ、皆様と手を携えて、未来を創り上げる時です。chính từ bây giờ, laf thời kì chúng ta cùng chung ta xây dựng tương lai"
+                - link "avatar Nguyen Duyên" [ref=e655] [cursor=pointer]:
+                  - /url: /vi-VN/user/info-user/717928/Nguyen%20Duy%C3%AAn
+                  - button "avatar" [ref=e656]:
+                    - img "avatar" [ref=e657]
+                  - generic [ref=e658]: Nguyen Duyên
+              - generic [ref=e659]:
+                - paragraph [ref=e660] [cursor=pointer]:
+                  - button "こだわる" [ref=e661]
+                  - text: ": 「Cầu toàn」 được không mọi người"
+                - link "avatar Trung Lại Hồ Anh" [ref=e662] [cursor=pointer]:
+                  - /url: /vi-VN/user/info-user/2053465/Trung%20L%E1%BA%A1i%20H%E1%BB%93%20Anh
+                  - button "avatar" [ref=e663]:
+                    - img "avatar" [ref=e664]
+                  - generic [ref=e665]: Trung Lại Hồ Anh
+              - generic [ref=e666]:
+                - paragraph [ref=e667] [cursor=pointer]:
+                  - button "老朽化" [ref=e668]
+                  - text: ": 公共施設の老朽化 sự xuống cấp của cơ sở hạ tầng công cộng"
+                - link "avatar Nguyen Duyên" [ref=e669] [cursor=pointer]:
+                  - /url: /vi-VN/user/info-user/717928/Nguyen%20Duy%C3%AAn
+                  - button "avatar" [ref=e670]:
+                    - img "avatar" [ref=e671]
+                  - generic [ref=e672]: Nguyen Duyên
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - img "Mazii" [ref=e202]
+              - paragraph [ref=e203]: Mazii - Bạn đồng hành tiếng Nhật tin cậy
+              - paragraph [ref=e205]:
+                - img "icon" [ref=e206]
+                - text: 315 Trường Chinh, Khương Mai, Thanh Xuân, Hà Nội
+              - link "icon support@mazii.net" [ref=e208] [cursor=pointer]:
+                - /url: mailto:support@mazii.net
+                - img "icon" [ref=e209]
+                - text: support@mazii.net
+              - link "icon +(84) 37 773 8144" [ref=e211] [cursor=pointer]:
+                - /url: tel:+84377738144
+                - img "icon" [ref=e212]
+                - text: +(84) 37 773 8144
+              - link "icon https://eupgroup.net" [ref=e214] [cursor=pointer]:
+                - /url: https://eupgroup.net/
+                - img "icon" [ref=e215]
+                - text: https://eupgroup.net
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - img "QR" [ref=e219]
+                - generic [ref=e220]: Mazii Mobile
+                - generic [ref=e221]: Dành cho IOS và Android
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - img "QR" [ref=e224]
+                  - generic [ref=e225]: Quét QR để tải ứng dụng
+                - generic [ref=e226]:
+                  - link "QR" [ref=e227] [cursor=pointer]:
+                    - /url: https://apps.apple.com/us/app/mazii-dict-to-learn-japanese/id933081417
+                    - img "QR" [ref=e228]
+                  - link "QR" [ref=e229] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.mazii.dictionary
+                    - img "QR" [ref=e230]
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - generic [ref=e234]:
+                - paragraph [ref=e235]: Về Mazii
+                - generic [ref=e236]:
+                  - link "Giới thiệu" [ref=e237] [cursor=pointer]:
+                    - /url: /intro
+                  - link "Đối tác" [ref=e238] [cursor=pointer]:
+                    - /url: https://job.mazii.net/vi-VN/partners
+                  - link "Trợ giúp" [ref=e239] [cursor=pointer]:
+                    - /url: /help
+                  - button "Báo lỗi" [ref=e240] [cursor=pointer]
+                  - link "Điều khoản sử dụng" [ref=e241] [cursor=pointer]:
+                    - /url: https://mazii.net/term.html
+                  - link "Chính sách bảo mật" [ref=e242] [cursor=pointer]:
+                    - /url: https://mazii.net/privacy-policy.html
+              - generic [ref=e244]:
+                - paragraph [ref=e245]: Chính sách giao dịch
+                - generic [ref=e246]:
+                  - link "Chính sách thanh toán" [ref=e247] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-thanh-toan.html
+                  - link "Chính sách vận chuyển, giao nhận" [ref=e248] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-van-chuyen.html
+                  - link "Chính sách bảo mật thông tin cá nhân" [ref=e249] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-bao-mat-thong-tin.html
+                  - link "Chính sách đổi trả, hoàn tiền" [ref=e250] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-doi-tra.html
+                  - link "Hướng dẫn thanh toán" [ref=e251] [cursor=pointer]:
+                    - /url: /guide/huong-dan-mua-hang.html
+                  - link "Tiếp nhận và giải quyết khiếu nại" [ref=e252] [cursor=pointer]:
+                    - /url: /guide/giai-quyet-khieu-nai.html
+              - generic [ref=e254]:
+                - paragraph [ref=e255]: Chức năng chính
+                - generic [ref=e256]:
+                  - link "Tra cứu" [ref=e257] [cursor=pointer]:
+                    - /url: /search
+                  - link "Dịch" [ref=e258] [cursor=pointer]:
+                    - /url: /translate
+                  - link "Trợ giúp" [ref=e259] [cursor=pointer]:
+                    - /url: /help
+                  - link "JLPT" [ref=e260] [cursor=pointer]:
+                    - /url: /jlpt
+                  - link "Nâng cấp" [ref=e261] [cursor=pointer]:
+                    - /url: /upgrade
+            - generic [ref=e262]:
+              - generic [ref=e264]:
+                - paragraph [ref=e265]: Sản phẩm khác
+                - generic [ref=e266]:
+                  - link "icon Todaii Japanese Học tiếng Nhật qua đọc báo" [ref=e267] [cursor=pointer]:
+                    - /url: https://japanese.todaiinews.com/
+                    - img "icon" [ref=e268]
+                    - generic [ref=e269]:
+                      - paragraph [ref=e270]: Todaii Japanese
+                      - paragraph [ref=e271]: Học tiếng Nhật qua đọc báo
+                  - link "icon Hey Japan Học tiếng Nhật từ con số 0" [ref=e272] [cursor=pointer]:
+                    - /url: https://heylearning.net/en/product/heyjapan
+                    - img "icon" [ref=e273]
+                    - generic [ref=e274]:
+                      - paragraph [ref=e275]: Hey Japan
+                      - paragraph [ref=e276]: Học tiếng Nhật từ con số 0
+                  - link "icon Migii JLPT Nền tảng luyện thi chứng chỉ tiếng Nhật 5 cấp độ" [ref=e277] [cursor=pointer]:
+                    - /url: https://jlpt.migii.net
+                    - img "icon" [ref=e278]
+                    - generic [ref=e279]:
+                      - paragraph [ref=e280]: Migii JLPT
+                      - paragraph [ref=e281]: Nền tảng luyện thi chứng chỉ tiếng Nhật 5 cấp độ
+                  - link "icon Hanzii Từ điển tiếng Trung Hanzii" [ref=e282] [cursor=pointer]:
+                    - /url: https://hanzii.net
+                    - img "icon" [ref=e283]
+                    - generic [ref=e284]:
+                      - paragraph [ref=e285]: Hanzii
+                      - paragraph [ref=e286]: Từ điển tiếng Trung Hanzii
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - paragraph [ref=e289]: Mạng xã hội
+                  - generic [ref=e290]:
+                    - link "icon" [ref=e291] [cursor=pointer]:
+                      - /url: https://www.facebook.com/mazii.net
+                      - img "icon" [ref=e292]
+                    - link "icon" [ref=e293] [cursor=pointer]:
+                      - /url: https://www.tiktok.com/@mazii.japanese
+                      - img "icon" [ref=e294]
+                    - link "icon" [ref=e295] [cursor=pointer]:
+                      - /url: https://zalo.me/18153356414765338
+                      - img "icon" [ref=e296]
+                    - link "icon" [ref=e297] [cursor=pointer]:
+                      - /url: https://www.instagram.com/mazii.vietnam
+                      - img "icon" [ref=e298]
+                    - link "icon" [ref=e299] [cursor=pointer]:
+                      - /url: https://youtube.com/channel/UClsfEm0QTwOYaoOElpm0Zkg
+                      - img "icon" [ref=e300]
+                    - link "icon" [ref=e301] [cursor=pointer]:
+                      - /url: https://m.me/mazii.net
+                      - img "icon" [ref=e302]
+                    - link "icon" [ref=e303] [cursor=pointer]:
+                      - /url: https://line.me/R/ti/p/~mazii.net
+                      - img "icon" [ref=e304]
+                - generic [ref=e305]:
+                  - paragraph [ref=e306]: Tiện ích
+                  - generic [ref=e307]:
+                    - link "icon" [ref=e308] [cursor=pointer]:
+                      - /url: https://chrome.google.com/webstore/detail/translate-japanese-mazii/lkjffochdceoneajnigkbdddjdekhojj
+                      - img "icon" [ref=e309]
+                    - link "icon" [ref=e310] [cursor=pointer]:
+                      - /url: https://apps.apple.com/us/app/japanese-dictionary-mazii/id1579624904
+                      - img "icon" [ref=e311]
+                    - link "icon" [ref=e312] [cursor=pointer]:
+                      - /url: https://addons.mozilla.org/vi/firefox/addon/japanese-dictionary-mazii/
+                      - img "icon" [ref=e313]
+                - link "Mazii" [ref=e315] [cursor=pointer]:
+                  - /url: http://online.gov.vn/Home/WebDetails/107527
+                  - img "Mazii" [ref=e316]
+          - generic [ref=e317]:
+            - paragraph [ref=e318]: CÔNG TY CỔ PHẦN CÔNG NGHỆ EUP
+            - paragraph [ref=e319]: "MST: 0107482236 cấp ngày 23/06/2016 • Giấy phép số: 67/GP-BTTTT cấp 02/02/2018 • Copyright © 2016"
+    - generic [ref=e674]:
+      - paragraph [ref=e676]: Ghi chú
+      - button "Close" [ref=e677] [cursor=pointer]:
+        - img "close" [ref=e678]
+    - img [ref=e692] [cursor=pointer]
+  - iframe [ref=e831]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - text: được bảo vệ bằng
+        - strong [ref=f1e7]: reCAPTCHA
+      - generic [ref=f1e9]:
+        - text: reCAPTCHA đang thay đổi điều khoản dịch vụ.
+        - link "Hãy xem ngay." [ref=f1e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate

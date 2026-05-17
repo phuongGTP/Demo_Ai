@@ -3,3 +3,5 @@ node_modules/
 __pycache__/
 *.pyc
 .env
+.playwright-mcp/console-*.log
+test-evidence/

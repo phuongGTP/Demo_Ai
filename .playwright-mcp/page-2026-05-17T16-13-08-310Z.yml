@@ -1,0 +1,302 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "menu" [ref=e7] [cursor=pointer]:
+          - img "menu" [ref=e8]
+        - generic [ref=e9]:
+          - link "v2/ic_dict Tra cứu" [ref=e11] [cursor=pointer]:
+            - /url: /vi-VN/search
+            - img "v2/ic_dict" [ref=e12]
+            - generic: Tra cứu
+          - link "v2/ic_learning_hub Học tập" [ref=e14] [cursor=pointer]:
+            - /url: /vi-VN/learning-hub
+            - img "v2/ic_learning_hub" [ref=e15]
+            - generic: Học tập
+          - heading "v2/ic_translate Dịch" [level=1] [ref=e16]:
+            - link "v2/ic_translate Dịch" [ref=e17] [cursor=pointer]:
+              - /url: /vi-VN/translate
+              - img "v2/ic_translate" [ref=e18]
+              - generic: Dịch
+          - link "v2/ic_test Thi thử" [ref=e20] [cursor=pointer]:
+            - /url: /vi-VN/test
+            - img "v2/ic_test" [ref=e21]
+            - generic: Thi thử
+          - link "v2/ic_qa Cộng đồng" [ref=e23] [cursor=pointer]:
+            - /url: /vi-VN/qa
+            - img "v2/ic_qa" [ref=e24]
+            - generic: Cộng đồng
+          - separator [ref=e25]
+          - link "v2/ic_news Luyện đọc" [ref=e27] [cursor=pointer]:
+            - /url: /vi-VN/news
+            - img "v2/ic_news" [ref=e28]
+            - generic: Luyện đọc
+          - link "ic_conversation1 Hội thoại" [ref=e30] [cursor=pointer]:
+            - /url: /vi-VN/conversation
+            - img "ic_conversation1" [ref=e31]
+            - generic: Hội thoại
+          - link "v2/ic_opendict Từ điển mở" [ref=e33] [cursor=pointer]:
+            - /url: /vi-VN/opendict
+            - img "v2/ic_opendict" [ref=e34]
+            - generic: Từ điển mở
+          - link "v2/ic_cvname Tên tiếng Nhật" [ref=e36] [cursor=pointer]:
+            - /url: /vi-VN/convert-name
+            - img "v2/ic_cvname" [ref=e37]
+            - generic: Tên tiếng Nhật
+          - separator [ref=e38]
+          - link "ic_upgrade Nâng cấp" [ref=e40] [cursor=pointer]:
+            - /url: /vi-VN/upgrade
+            - img "ic_upgrade" [ref=e41]
+            - generic: Nâng cấp
+          - link "v2/ic_setting Cài đặt" [ref=e43] [cursor=pointer]:
+            - /url: /vi-VN/setting
+            - img "v2/ic_setting" [ref=e44]
+            - generic: Cài đặt
+          - link "ic_intro Giới thiệu" [ref=e46] [cursor=pointer]:
+            - /url: /vi-VN/intro
+            - img "ic_intro" [ref=e47]
+            - generic: Giới thiệu
+          - link "ic_job Việc làm" [ref=e49] [cursor=pointer]:
+            - /url: https://job.mazii.net/vi-VN
+            - img "ic_job" [ref=e50]
+            - generic: Việc làm
+          - link "ic_blog Blog" [ref=e52] [cursor=pointer]:
+            - /url: https://mazii.net/vi-VN/blog
+            - img "ic_blog" [ref=e53]
+            - generic: Blog
+          - link "ic_affiliate Tiếp thị liên kết" [ref=e55] [cursor=pointer]:
+            - /url: https://mazii.net/vi-VN/affiliate
+            - img "ic_affiliate" [ref=e56]
+            - generic: Tiếp thị liên kết
+          - separator [ref=e57]
+      - generic [ref=e59]:
+        - banner [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - link "Mazii" [ref=e64] [cursor=pointer]:
+                - /url: /vi-VN
+                - img "Mazii" [ref=e65]
+              - text: Dịch
+            - generic [ref=e66]:
+              - button "Vietnameseicon" [ref=e70] [cursor=pointer]:
+                - generic [ref=e71]:
+                  - img "Vietnamese" [ref=e72]
+                  - img "icon" [ref=e73]
+              - button "notify" [ref=e79] [cursor=pointer]:
+                - img "notify" [ref=e80]
+              - button "fire" [ref=e81] [cursor=pointer]:
+                - img "fire" [ref=e82]
+              - generic [ref=e87]:
+                - button "name" [ref=e88] [cursor=pointer]:
+                  - img "name" [ref=e89]
+                - generic [ref=e90]:
+                  - paragraph [ref=e91]: phuonggt+4
+                  - paragraph [ref=e92]: "ID: 2156728"
+        - generic [ref=e593]:
+          - generic [ref=e596]:
+            - link "Dịch văn bản" [ref=e597] [cursor=pointer]:
+              - /url: /vi-VN/translate
+            - link "Dịch hội thoại" [ref=e598] [cursor=pointer]:
+              - /url: /vi-VN/conversation-translation
+          - generic [ref=e599]:
+            - generic [ref=e601]:
+              - img "conversation" [ref=e603]
+              - paragraph [ref=e604]: Trò chuyện dễ dàng với Mazii
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - img "language" [ref=e607]
+                  - generic [ref=e608]: Bấm vào ngôn ngữ của bạn để nói, còn lại cứ để Mazii lo
+                - generic [ref=e609]:
+                  - img "keyboard" [ref=e610]
+                  - generic [ref=e611]: Bấm vào biểu tượng bàn phím để chuyển sang chế độ nhập văn bản
+                - generic [ref=e612]:
+                  - img "mic" [ref=e613]
+                  - generic [ref=e614]: Bấm vào biểu tượng micro để chuyển sang chế độ nói
+            - generic [ref=e615]:
+              - generic [ref=e616]:
+                - button "mic Thu âm" [ref=e617] [cursor=pointer]:
+                  - img "mic" [ref=e618]
+                  - generic [ref=e619]: Thu âm
+                - button "keyboard Nhập từ bàn phím" [ref=e620] [cursor=pointer]:
+                  - img "keyboard" [ref=e621]
+                  - generic [ref=e622]: Nhập từ bàn phím
+              - generic [ref=e623]:
+                - generic [ref=e624]:
+                  - button "mic" [ref=e625] [cursor=pointer]:
+                    - img "mic" [ref=e626]
+                  - button "Japanese arrow" [ref=e630] [cursor=pointer]:
+                    - generic [ref=e631]: Japanese
+                    - img "arrow" [ref=e632]
+                - button "swap" [ref=e634] [cursor=pointer]:
+                  - img "swap" [ref=e635]
+                - generic [ref=e636]:
+                  - button "mic" [ref=e637] [cursor=pointer]:
+                    - img "mic" [ref=e638]
+                  - button "Vietnamese arrow" [ref=e642] [cursor=pointer]:
+                    - generic [ref=e643]: Vietnamese
+                    - img "arrow" [ref=e644]
+        - generic [ref=e323]:
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - img "Mazii" [ref=e326]
+              - paragraph [ref=e327]: Mazii - Bạn đồng hành tiếng Nhật tin cậy
+              - paragraph [ref=e329]:
+                - img "icon" [ref=e330]
+                - text: 315 Trường Chinh, Khương Mai, Thanh Xuân, Hà Nội
+              - link "icon support@mazii.net" [ref=e332] [cursor=pointer]:
+                - /url: mailto:support@mazii.net
+                - img "icon" [ref=e333]
+                - text: support@mazii.net
+              - link "icon +(84) 37 773 8144" [ref=e335] [cursor=pointer]:
+                - /url: tel:+84377738144
+                - img "icon" [ref=e336]
+                - text: +(84) 37 773 8144
+              - link "icon https://eupgroup.net" [ref=e338] [cursor=pointer]:
+                - /url: https://eupgroup.net/
+                - img "icon" [ref=e339]
+                - text: https://eupgroup.net
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - img "QR" [ref=e343]
+                - generic [ref=e344]: Mazii Mobile
+                - generic [ref=e345]: Dành cho IOS và Android
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - img "QR" [ref=e348]
+                  - generic [ref=e349]: Quét QR để tải ứng dụng
+                - generic [ref=e350]:
+                  - link "QR" [ref=e351] [cursor=pointer]:
+                    - /url: https://apps.apple.com/us/app/mazii-dict-to-learn-japanese/id933081417
+                    - img "QR" [ref=e352]
+                  - link "QR" [ref=e353] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.mazii.dictionary
+                    - img "QR" [ref=e354]
+          - generic [ref=e355]:
+            - generic [ref=e356]:
+              - generic [ref=e358]:
+                - paragraph [ref=e359]: Về Mazii
+                - generic [ref=e360]:
+                  - link "Giới thiệu" [ref=e361] [cursor=pointer]:
+                    - /url: /intro
+                  - link "Đối tác" [ref=e362] [cursor=pointer]:
+                    - /url: https://job.mazii.net/vi-VN/partners
+                  - link "Trợ giúp" [ref=e363] [cursor=pointer]:
+                    - /url: /help
+                  - button "Báo lỗi" [ref=e364] [cursor=pointer]
+                  - link "Điều khoản sử dụng" [ref=e365] [cursor=pointer]:
+                    - /url: https://mazii.net/term.html
+                  - link "Chính sách bảo mật" [ref=e366] [cursor=pointer]:
+                    - /url: https://mazii.net/privacy-policy.html
+              - generic [ref=e368]:
+                - paragraph [ref=e369]: Chính sách giao dịch
+                - generic [ref=e370]:
+                  - link "Chính sách thanh toán" [ref=e371] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-thanh-toan.html
+                  - link "Chính sách vận chuyển, giao nhận" [ref=e372] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-van-chuyen.html
+                  - link "Chính sách bảo mật thông tin cá nhân" [ref=e373] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-bao-mat-thong-tin.html
+                  - link "Chính sách đổi trả, hoàn tiền" [ref=e374] [cursor=pointer]:
+                    - /url: /guide/chinh-sach-doi-tra.html
+                  - link "Hướng dẫn thanh toán" [ref=e375] [cursor=pointer]:
+                    - /url: /guide/huong-dan-mua-hang.html
+                  - link "Tiếp nhận và giải quyết khiếu nại" [ref=e376] [cursor=pointer]:
+                    - /url: /guide/giai-quyet-khieu-nai.html
+              - generic [ref=e378]:
+                - paragraph [ref=e379]: Chức năng chính
+                - generic [ref=e380]:
+                  - link "Tra cứu" [ref=e381] [cursor=pointer]:
+                    - /url: /search
+                  - link "Dịch" [ref=e382] [cursor=pointer]:
+                    - /url: /translate
+                  - link "Trợ giúp" [ref=e383] [cursor=pointer]:
+                    - /url: /help
+                  - link "JLPT" [ref=e384] [cursor=pointer]:
+                    - /url: /jlpt
+                  - link "Nâng cấp" [ref=e385] [cursor=pointer]:
+                    - /url: /upgrade
+            - generic [ref=e386]:
+              - generic [ref=e388]:
+                - paragraph [ref=e389]: Sản phẩm khác
+                - generic [ref=e390]:
+                  - link "icon Todaii Japanese Học tiếng Nhật qua đọc báo" [ref=e391] [cursor=pointer]:
+                    - /url: https://japanese.todaiinews.com/
+                    - img "icon" [ref=e392]
+                    - generic [ref=e393]:
+                      - paragraph [ref=e394]: Todaii Japanese
+                      - paragraph [ref=e395]: Học tiếng Nhật qua đọc báo
+                  - link "icon Hey Japan Học tiếng Nhật từ con số 0" [ref=e396] [cursor=pointer]:
+                    - /url: https://heylearning.net/en/product/heyjapan
+                    - img "icon" [ref=e397]
+                    - generic [ref=e398]:
+                      - paragraph [ref=e399]: Hey Japan
+                      - paragraph [ref=e400]: Học tiếng Nhật từ con số 0
+                  - link "icon Migii JLPT Nền tảng luyện thi chứng chỉ tiếng Nhật 5 cấp độ" [ref=e401] [cursor=pointer]:
+                    - /url: https://jlpt.migii.net
+                    - img "icon" [ref=e402]
+                    - generic [ref=e403]:
+                      - paragraph [ref=e404]: Migii JLPT
+                      - paragraph [ref=e405]: Nền tảng luyện thi chứng chỉ tiếng Nhật 5 cấp độ
+                  - link "icon Hanzii Từ điển tiếng Trung Hanzii" [ref=e406] [cursor=pointer]:
+                    - /url: https://hanzii.net
+                    - img "icon" [ref=e407]
+                    - generic [ref=e408]:
+                      - paragraph [ref=e409]: Hanzii
+                      - paragraph [ref=e410]: Từ điển tiếng Trung Hanzii
+              - generic [ref=e411]:
+                - generic [ref=e412]:
+                  - paragraph [ref=e413]: Mạng xã hội
+                  - generic [ref=e414]:
+                    - link "icon" [ref=e415] [cursor=pointer]:
+                      - /url: https://www.facebook.com/mazii.net
+                      - img "icon" [ref=e416]
+                    - link "icon" [ref=e417] [cursor=pointer]:
+                      - /url: https://www.tiktok.com/@mazii.japanese
+                      - img "icon" [ref=e418]
+                    - link "icon" [ref=e419] [cursor=pointer]:
+                      - /url: https://zalo.me/18153356414765338
+                      - img "icon" [ref=e420]
+                    - link "icon" [ref=e421] [cursor=pointer]:
+                      - /url: https://www.instagram.com/mazii.vietnam
+                      - img "icon" [ref=e422]
+                    - link "icon" [ref=e423] [cursor=pointer]:
+                      - /url: https://youtube.com/channel/UClsfEm0QTwOYaoOElpm0Zkg
+                      - img "icon" [ref=e424]
+                    - link "icon" [ref=e425] [cursor=pointer]:
+                      - /url: https://m.me/mazii.net
+                      - img "icon" [ref=e426]
+                    - link "icon" [ref=e427] [cursor=pointer]:
+                      - /url: https://line.me/R/ti/p/~mazii.net
+                      - img "icon" [ref=e428]
+                - generic [ref=e429]:
+                  - paragraph [ref=e430]: Tiện ích
+                  - generic [ref=e431]:
+                    - link "icon" [ref=e432] [cursor=pointer]:
+                      - /url: https://chrome.google.com/webstore/detail/translate-japanese-mazii/lkjffochdceoneajnigkbdddjdekhojj
+                      - img "icon" [ref=e433]
+                    - link "icon" [ref=e434] [cursor=pointer]:
+                      - /url: https://apps.apple.com/us/app/japanese-dictionary-mazii/id1579624904
+                      - img "icon" [ref=e435]
+                    - link "icon" [ref=e436] [cursor=pointer]:
+                      - /url: https://addons.mozilla.org/vi/firefox/addon/japanese-dictionary-mazii/
+                      - img "icon" [ref=e437]
+                - link "Mazii" [ref=e439] [cursor=pointer]:
+                  - /url: http://online.gov.vn/Home/WebDetails/107527
+                  - img "Mazii" [ref=e440]
+          - generic [ref=e441]:
+            - paragraph [ref=e442]: CÔNG TY CỔ PHẦN CÔNG NGHỆ EUP
+            - paragraph [ref=e443]: "MST: 0107482236 cấp ngày 23/06/2016 • Giấy phép số: 67/GP-BTTTT cấp 02/02/2018 • Copyright © 2016"
+    - generic [ref=e445]:
+      - paragraph [ref=e447]: Ghi chú
+      - button "Close" [ref=e448] [cursor=pointer]:
+        - img "close" [ref=e449]
+    - img [ref=e452] [cursor=pointer]
+  - iframe [ref=e585]:
+    - generic [ref=f247e5]:
+      - generic [ref=f247e6]:
+        - text: được bảo vệ bằng
+        - strong [ref=f247e7]: reCAPTCHA
+      - generic [ref=f247e9]:
+        - text: reCAPTCHA đang thay đổi điều khoản dịch vụ.
+        - link "Hãy xem ngay." [ref=f247e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate
