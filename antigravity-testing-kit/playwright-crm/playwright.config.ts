@@ -9,6 +9,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
   workers: 1,
+  timeout: 120000, // Increase test timeout to 120s for slower pages
   reporter: [['html', { outputFolder: 'playwright-report' }], ['list']],
 
   use: {
@@ -16,7 +17,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'off',
-    viewport: { width: 1920, height: 1080 },
+    viewport: { width: 1440, height: 900 },
     headless: false,
   },
 

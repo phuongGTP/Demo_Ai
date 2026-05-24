@@ -1,0 +1,660 @@
+{
+  "translate_page_initial": [
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "ats-overlay-bottom-close-button"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn btn-menu"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "QR tải app",
+      "classes": "btn-open"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Đăng nhập",
+      "classes": "btn btn-primary"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Đăng ký",
+      "classes": "btn btn-register d-none d-sm-block"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "button",
+      "classes": "p-0 btn"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn p-0 border-0"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn btn-common btn-notify p-0"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn btn-streak btn-common p-0"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "button",
+      "ariaLabel": "search",
+      "classes": "btn-search"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "button",
+      "ariaLabel": "draw-kanji",
+      "classes": "btn btn-common"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Nhật - Việt",
+      "classes": "dict-show btn w-100 h-100"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Chế độ AI",
+      "classes": "btn-tab btn btn-chat-qa"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Từ vựng",
+      "classes": "btn-tab btn active"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Hán tự",
+      "classes": "btn-tab btn"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "button",
+      "ariaLabel": "Play audio for 持つ",
+      "classes": "btn btn-link p-0 btn-audio"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "持つ\n\nもつ\n\ncầm; nắm; mang",
+      "classes": "box-content flex-grow-1 btn text-start p-0"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Xem thêm",
+      "classes": "tt-more btn p-0"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "ariaLabel": "Close banner",
+      "classes": "btn btn-common ng-star-inserted"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "3",
+      "classes": "btn btn-action btn-like"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "0",
+      "classes": "btn btn-action btn-comment"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn btn-action ng-star-inserted"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Xem thêm",
+      "classes": "btn p-0 tt-more"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "睽",
+      "classes": "btn p-0 txt-word"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn-avatar-small btn-avatar avatar-premium"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "classes": "btn-avatar-small btn-avatar"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "submit",
+      "text": "Báo lỗi",
+      "classes": "btn btn-link p-0 item-contact-intro cursor-pointer"
+    },
+    {
+      "tag": "button",
+      "visible": true,
+      "type": "button",
+      "ariaLabel": "Close",
+      "classes": "btn-close-drawer ng-tns-c3156561750-1"
+    },
+    {
+      "tag": "input",
+      "visible": true,
+      "type": "text",
+      "placeholder": "Tìm kiếm",
+      "classes": "form-control ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "input",
+      "visible": true,
+      "type": "text",
+      "placeholder": "日本, nihon, Nhật Bản",
+      "classes": "input-search ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/vi-VN/search",
+      "text": "Tra cứu",
+      "classes": "menu-item"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/vi-VN/note/discover",
+      "text": "Xem thêm",
+      "classes": "tt-more"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "https://hub.mazii.net/dynamic-link/form-challenge",
+      "classes": "ng-star-inserted"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/vi-VN/qa/detail/175754",
+      "text": "Tettei N1 bài 38. 頑張れ‼️",
+      "classes": "post-title"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/vi-VN/qa/profile/228100",
+      "classes": "btn btn-avatar p-0 avatar-premium"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/vi-VN/qa/profile/969428",
+      "classes": "btn btn-avatar p-0"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/news/ee1211ade7cd788860c93ed6cdebc3e9",
+      "text": "日本にほんで増ふえる「孤独死こどくし」の問題もんだい\nChưa đọc\n2026-05-24",
+      "classes": "text-decoration-none"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/vi-VN/user/info-user/50245/NguyenToanJP",
+      "text": "NguyenToanJP",
+      "classes": "user-report"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "/intro",
+      "text": "Giới thiệu",
+      "classes": "item-contact-intro"
+    },
+    {
+      "tag": "a",
+      "visible": true,
+      "href": "https://japanese.todaiinews.com/",
+      "text": "Todaii Japanese\n\nHọc tiếng Nhật qua đọc báo",
+      "classes": "item-app"
+    },
+    {
+      "tag": "iframe",
+      "visible": true,
+      "id": "google_ads_iframe_/21622890900,22525315069/VN_mazii.net_pc_allsite_right_0",
+      "name": "google_ads_iframe_/21622890900,22525315069/VN_mazii.net_pc_allsite_right_0",
+      "ariaLabel": "Advertisement"
+    },
+    {
+      "tag": "app-dropdown",
+      "visible": true,
+      "classes": "dropdown-language"
+    },
+    {
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown"
+    },
+    {
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-button"
+    },
+    {
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-menu"
+    },
+    {
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content"
+    },
+    {
+      "tag": "app-dropdown",
+      "visible": true,
+      "classes": "dropdown-notify"
+    },
+    {
+      "tag": "app-dropdown",
+      "visible": true,
+      "classes": "dropdown-share-qa"
+    },
+    {
+      "tag": "li",
+      "visible": true,
+      "classes": "dropdown-item ng-star-inserted"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn d-xl-none btn-menu"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "ariaLabel": "draw-kanji",
+      "classes": "btn py-0"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Hủy",
+      "classes": "btn btn-modal-footer btn-cancel"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Tìm kiếm",
+      "classes": "btn btn-modal-footer btn-submit"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "ariaLabel": "Close",
+      "classes": "btn-close"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Lịch sử",
+      "classes": "tab btn"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Hủy",
+      "classes": "btn btn-modal-footer btn-outline-secondary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Đồng ý",
+      "classes": "btn btn-modal-footer btn-primary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Thoát",
+      "classes": "btn btn-secondary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "classes": "btn btn-setting-icon p-0"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Tra cứu từ",
+      "classes": "btn btn-tertiary-icon d-flex align-items-center gap-2 px-2"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn btn-tertiary-icon"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn btn-circle"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "classes": "btn btn-close-modal"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Danh sách",
+      "classes": "setting-tab-btn active"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "FlashCard",
+      "classes": "setting-tab-btn"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Lưu thay đổi",
+      "classes": "btn btn-primary w-100 m-0 btn-save"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn-close-modal"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Hủy",
+      "classes": "btn-secondary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Lưu",
+      "classes": "btn-primary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Hủy",
+      "classes": "btn fc-btn-cancel"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Gửi",
+      "classes": "btn fc-btn-submit"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn p-0 btn-global-search"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Từ vựng",
+      "classes": "gs-segment-item gs-segment-active ng-star-inserted"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Hán tự",
+      "classes": "gs-segment-item ng-star-inserted"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Đóng góp",
+      "classes": "btn btn-primary ng-tns-c3232564086-3"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Huỷ",
+      "classes": "btn-secondary-custom"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Thêm",
+      "classes": "btn-primary-custom"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "classes": "btn-icon-tertiary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Hủy",
+      "classes": "btn-tertiary"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "submit",
+      "text": "Chia sẻ",
+      "classes": "btn p-0 btn-action"
+    },
+    {
+      "tag": "button",
+      "visible": false,
+      "type": "button",
+      "text": "Đóng",
+      "classes": "btn btn-light"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "type": "checkbox",
+      "classes": "form-check-input mb-0 border-primary ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "type": "file"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "id": "errorContent",
+      "name": "errorContent",
+      "type": "text",
+      "classes": "form-control ng-untouched ng-pristine ng-invalid"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "id": "word",
+      "type": "text",
+      "placeholder": "Nhập từ vựng",
+      "classes": "form-control custom-input ng-untouched ng-pristine ng-invalid"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "type": "text",
+      "placeholder": "Tìm kiếm",
+      "classes": "ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "id": "lhNotebookName",
+      "type": "text",
+      "placeholder": "Nhập tên sổ tay",
+      "classes": "form-input ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "input",
+      "visible": false,
+      "type": "checkbox",
+      "classes": "form-check-input mt-0 ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "textarea",
+      "visible": false,
+      "type": "textarea",
+      "placeholder": "Nhập nội dung ghi chú",
+      "classes": "note-textarea ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "tag": "textarea",
+      "visible": false,
+      "id": "explainError",
+      "name": "explainError",
+      "type": "textarea",
+      "classes": "form-control ng-untouched ng-pristine ng-invalid"
+    },
+    {
+      "tag": "textarea",
+      "visible": false,
+      "id": "g-recaptcha-response-100000",
+      "name": "g-recaptcha-response",
+      "type": "textarea",
+      "classes": "g-recaptcha-response"
+    },
+    {
+      "tag": "select",
+      "visible": false,
+      "type": "select-one",
+      "text": "Chọn từ loạiVietnameseJapaneseEnglishChinese (Simplified)Chinese (Traditional)Ko",
+      "classes": "form-select custom-input ng-untouched ng-pristine ng-invalid"
+    },
+    {
+      "tag": "a",
+      "visible": false,
+      "href": "/vi-VN"
+    },
+    {
+      "tag": "div",
+      "visible": false,
+      "ariaLabel": "loading",
+      "classes": "skeleton-loader pulse"
+    },
+    {
+      "tag": "div",
+      "visible": false,
+      "id": "92fc4777-2911-44ca-bd3f-016c72cda26e",
+      "classes": "modal fade"
+    },
+    {
+      "tag": "div",
+      "visible": false,
+      "text": "có thể được phân tích như sauNếu bạn biết ý nghĩa chính xác hơn của từ này, hãy ",
+      "classes": "modal-body px-0 model-word"
+    },
+    {
+      "tag": "div",
+      "visible": false,
+      "text": "có thể được phân tích như sauNếu bạn biết ý nghĩa chính xác hơn của từ này, hãy ",
+      "classes": "row g-16px ng-tns-c3232564086-3 is-model ng-star-inserted"
+    },
+    {
+      "tag": "div",
+      "visible": false,
+      "text": "Thêm mới Sổ tayThêm mới Nhóm sổ tayNhập Sổ tay",
+      "classes": "action-dropdown-menu"
+    },
+    {
+      "tag": "div",
+      "visible": false,
+      "text": "Mới nhấtCũ nhấtTheo tên ( A→Z )Theo tên ( Z→A )",
+      "classes": "filter-dropdown-menu"
+    }
+  ]
+}

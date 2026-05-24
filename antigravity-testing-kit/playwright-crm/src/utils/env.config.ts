@@ -21,4 +21,7 @@ export const env = {
   baseUrl: process.env.BASE_URL ?? 'https://crm.anhtester.com',
   adminEmail: process.env.ADMIN_EMAIL ?? 'admin@example.com',
   adminPassword: process.env.ADMIN_PASSWORD ?? '123456',
+  maziiBaseUrl: process.env.MAZII_BASE_URL ?? 'https://beta.mazii.net',
+  maziiEmail: process.env.MAZII_EMAIL ?? 'phuonggt@eupgroup.net',
+  maziiPassword: process.env.MAZII_PASSWORD ?? '',
 };

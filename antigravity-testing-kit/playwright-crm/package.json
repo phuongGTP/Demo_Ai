@@ -7,6 +7,8 @@
     "test": "npx playwright test src/tests/",
     "test:headed": "npx playwright test src/tests/ --headed",
     "test:customers": "npx playwright test src/tests/customers/ --headed",
+    "test:mazii": "npx playwright test src/tests/mazii/ --headed",
+    "test:mazii:debug": "npx playwright test src/tests/mazii/ --headed --debug",
     "report": "npx playwright show-report"
   },
   "devDependencies": {

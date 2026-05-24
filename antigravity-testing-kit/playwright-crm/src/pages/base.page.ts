@@ -8,7 +8,7 @@ export class BasePage {
   }
 
   async waitForPageLoad(): Promise<void> {
-    await this.page.waitForLoadState('networkidle');
+    await this.page.waitForLoadState('load');
   }
 
   async getFlashMessage(): Promise<string> {
